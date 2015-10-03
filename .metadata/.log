@@ -127,3 +127,12 @@ Caused by: java.io.IOException: error=7, Argument list too long
 	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
 	... 16 more
+
+!ENTRY com.aptana.index.core 4 0 2015-10-03 01:26:45.479
+!MESSAGE (Build 4.3.1.201509302304) [ERROR]  Size of category 'js.type' negative:
+-------------------- DEBUG --------------------
+file = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/.metadata/.plugins/com.aptana.index.core/3043527070.index
+offset = 2973
+size = -1
+--------------------   END   --------------------
+
