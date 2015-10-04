@@ -1,6 +1,6 @@
 //Function
 var prevHero = function(){
-	heroesText.hide();
+	
 
 	var prevSuperHeroesLabel = Ti.UI.createLabel({
 		text: superHeroes[5],
@@ -15,7 +15,7 @@ var prevHero = function(){
 };
 
 var nextHero = function(){
-	heroesText.hide();
+	
 
 	var nextSuperHeroesLabel = Ti.UI.createLabel({
 		text: superHeroes[1],
