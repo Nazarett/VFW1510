@@ -93,6 +93,8 @@ var heroesText = Ti.UI.createLabel({
 
 });
 
+var loadFile = require("eventListeners");
+
 //Output
 mainWindow.add(topView, prevView, nextView, heroesView);
 topView.add(myTitle);
