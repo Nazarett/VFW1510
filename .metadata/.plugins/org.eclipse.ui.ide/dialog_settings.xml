@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.appcelerator.titanium.feature.360.rcp:4.3.2.201510020431-857hFNMFGrkQXZNtD9tFlHOEJ2OG"/>
+		<item value="com.appcelerator.titanium.studio:4.3.2.1443752856-7o7Z7w8vdY1QVnFnu"/>
+		<item value="com.aptana.feature:4.3.2.1443752916-B37e85CK6z-z0HEikx6983335598"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
+		<item value="org.eclipse.platform:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

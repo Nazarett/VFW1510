@@ -1,0 +1,177 @@
+
+Wed Oct 07 2015 23:59:45 GMT-0400 (EDT)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.10.37
+  npm Version                 = 1.4.28
+
+Titanium CLI
+  CLI Version                 = 5.0.4
+
+Titanium SDK
+  SDK Version                 = 5.0.2.GA
+  SDK Path                    = /Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --deploy-type development --sim-type iphone --sim-version 9.0 --device-id 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 52093 --username gnazarett@gmailcom --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444276782744.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Found iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0.1
+[INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
+[DEBUG]  Detecting modules in /Users/GD/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/GD/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/GD/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: facebook 4.0.1 @ /Users/GD/Library/Application Support/Titanium/modules/android/facebook/4.0.1
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/GD/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.7 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.7
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.2.3 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.map/2.2.3
+[DEBUG]  Detected android module: ti.map 2.3.1 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/GD/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.7 @ /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.7
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.0
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 4.0.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/facebook/4.0.0
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.2.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.map/2.2.0
+[DEBUG]  Detected iphone module: ti.map 2.3.1 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.1
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/GD/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.0
+[INFO]   Building for iOS Simulator: iPhone 4s
+[DEBUG]  UDID: 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.0
+[INFO]   Building for device family: iphone
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-cf0d94f6f750275d4c9d6e6f1fd4e04f43e78fdf.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 289.754 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Nazarett_Gerardo_Project2.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Nazarett_Gerardo_Project2.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Nazarett_Gerardo_Project2_Prefix.pch
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Nazarett_Gerardo_Project2.xcodeproj/xcshareddata/xcschemes/Nazarett_Gerardo_Project2.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/debugger.plist
+[DEBUG]  Skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[TRACE]  Found generated 58x58 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  Found generated 87x87 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 80x80 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  Found generated 120x120 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  Found generated 180x180 app icon: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Landscape@2x.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait.png
+[DEBUG]  Skipping iPad launch image: Resources/iphone/Default-Portrait@2x.png
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/KS_nav_ui.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/KS_nav_views.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/Resources/app.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/app.js
+[DEBUG]  Overwriting /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 869ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
+[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0.1
+[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/6B8B1B62-BAF2-4FA6-8838-1B0BADC5C533/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] iPhone 4s Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/GD/Library/Logs/CoreSimulator/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/system.log
+[TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 com.Nazarett.Project2
+[TRACE]  [ioslib] App launched
+[TRACE]  [Nazarett_Gerardo_Project2] assertion failed: 14F27 13A340: libxpc.dylib + 71578 [5150F854-0B13-3C60-8B86-891EC976986E]: 0x7d
+[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/CD38C7D6-E04F-43AE-81E2-48DB8E4F439F/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log

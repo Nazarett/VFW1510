@@ -1,0 +1,7 @@
+//Project 2
+
+var words = ["Minie", "Mynie", "Moe"];
+
+for (var i =0 ; i <words.length; i++){
+	console.log ("Array i value" + words[i++]);
+}
