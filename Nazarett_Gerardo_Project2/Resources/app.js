@@ -58,12 +58,12 @@ if(Ti.Platform.name === "iPhone OS"){
 
 heroesSection = Ti.UI.createTableViewSection({
 	headerTitle: "Heroes",
-	footerTitle: "Names"
+	footerTitle: "My favorites"
 });
 
 villansSection = Ti.UI.createTableViewSection({
 	headerTitle: "Villans",
-	footerTitle: "Names"
+	footerTitle: "My favorites"
 });
 
 //Heroes Display, Loop and Event Listener
@@ -96,8 +96,34 @@ var hBio = function(){
 		
 	});
 	
+	//Heroes description display and buttons
+	var displayText = Ti.UI.createLabel({
+		text: this.desc,
+		font: {fontSize: 26, familyFont: "Times Roman"},
+		top: displayBorder.height + displayBorder.top + 40,
+		left: 10,
+		right: 10
+	});
+	
+	var backButton = Ti.UI.createLabel({
+		text: "Previous",
+		backgroundColor: "#333",
+		color: "#fff",
+		height: 50,
+		font: {fontSize: 24, familyFont: "Times Roman"},
+		width: "100%",
+		bottom: 0,
+		textAlign: "center"
+	});
+	
+	var backWindow =function(){
+		bioDisplay.close();
+	};
+	
+	backButton.addEventListener("click", backWindow);
+	
 	displayTitleView.add(displayTitleLabel);
-	bioDisplay.add(displayTitleView, displayBorder);
+	bioDisplay.add(displayTitleView, displayBorder,displayText, backButton);
 	
 	bioDisplay.open();
 
@@ -106,6 +132,7 @@ var hBio = function(){
 for(var i = 0, j = heroes.length; i<j; i++){
 	var theRow = Ti.UI.createTableViewRow({
 		title: heroes[i].title,
+		desc: heroes[i].description,
 		hasChild: true
 	});
 	
@@ -139,7 +166,7 @@ var vBio = function(){
 	
 	
 	var displayTitleLabel = Ti.UI.createLabel({
-		text:this.title,
+		text: this.title,
 		color: "#f5f5f5",
 		font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"},
 		textAlign: "center",
@@ -148,8 +175,35 @@ var vBio = function(){
 		
 	});
 	
+		//Villans description display and buttons
+	var displayText = Ti.UI.createLabel({
+		text: this.desc,
+		font: {fontSize: 26, familyFont: "Times Roman"},
+		top: displayBorder.height + displayBorder.top + 40,
+		left: 10,
+		right: 10
+	});
+	
+	var backButton = Ti.UI.createLabel({
+		text: "Previous",
+		backgroundColor: "#333",
+		color: "#fff",
+		height: 50,
+		font: {fontSize: 24, familyFont: "Times Roman"},
+		width: "100%",
+		bottom: 0,
+		textAlign: "center"
+	});
+	
+	var backWindow =function(){
+		bioDisplay.close();
+	};
+	
+	backButton.addEventListener("click", backWindow);
+	
+	
 	displayTitleView.add(displayTitleLabel);
-	bioDisplay.add(displayTitleView, displayBorder);
+	bioDisplay.add(displayTitleView, displayBorder,displayText, backButton);
 	
 	bioDisplay.open();
 
@@ -159,6 +213,7 @@ var vBio = function(){
 for(var i = 0, j = villans.length; i<j; i++){
 	var theRow = Ti.UI.createTableViewRow({
 		title: villans[i].title,
+		desc: villans[i].description,
 		hasChild: true
 	});
 	
@@ -183,4 +238,3 @@ characters.setData(charactersSection);
 titleView.add(titleLabel);
 mainWindow.add(titleView, border, characters);
 mainWindow.open();
-
