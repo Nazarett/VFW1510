@@ -1,7 +1,7 @@
 {
 	"files": {
 		"Info.plist": {
-			"hash": "49a570030b867fec959f2b5b607f97ca",
+			"hash": "58837d8352f1b6ada1a77414616ebfba",
 			"mtime": 0,
 			"size": 1829
 		},
@@ -3001,9 +3001,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "8bd162b2ae60c1e1a42d2f95c5b77ead",
-			"mtime": "2015-09-30T19:12:20.000Z",
-			"size": 493
+			"hash": "c08588b9e82247fc528ed58935caa22d",
+			"mtime": "2015-10-09T02:49:36.000Z",
+			"size": 237367
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
@@ -3034,7 +3034,7 @@
 	"forceCopy": false,
 	"forceCopyAll": false,
 	"name": "Nazarett_Gerardo_Project2",
-	"id": "com.Nazarett.Project2",
+	"id": "com.nazarett.project2",
 	"analytics": true,
 	"publisher": "GD",
 	"url": "http://",

@@ -7,31 +7,8 @@ Ti.UI.setBackgroundColor("#000");
 
 //Data
 
-var heroes = [
-		{
-			name: "Superman", 
-			description: "Also known as the man of steel lives in Metropolis as clark Kent reporter, but when trouble comes he becomes SUPERMAN."},
-		{
-			name: "Hulk", 
-			description: "David Banner suffered an accident and was exposed to gamma rays. so ever since the accident, you can say that you won't like him when his angry."},
-		{
-			name: "Green Lantern",
-			description: "Hal Jordan a pilot that doesn't believe in fear. Was choosen to be the defender of earth with a ring that gave reality to his imagination."},
-var villans = [
-		{
-			name": "Lex Luther, 
-			description: "Evil billionaire with great intelligence main purpose is to rule the world. Also arch enemy of Superman."
-		}, 
-		
-		{
-			name: "The Joker", 
-			description: "Super villan has a clown look and his goal in life is to destroy Batman or as he will call him the bat."
-		}, 
-		{
-			name: "Green Goblin", 
-			description: "Public enemy number one for a great heroe known as Spiderman. After an experiment going wrong in OsCorp, Mr. Osborne never was the same again."
-			}];
-		
+var heroes = [{title: "Superman"}, {title: "Hulk"}, {title: "Green Lantern"}];
+var villans = [{title: "Lex Luther"}, {title: "The Joker"}, {title: "Green Goblin"}];		
 
 
 //variables
@@ -52,6 +29,8 @@ var border = Ti.UI.createView({
 	top: titleView.height + titleView.top
 });
 
+
+
 var titleLabel = Ti.UI.createLabel({
 	text:"Heroes & Villians",
 	color: "#f5f5f5",
@@ -62,9 +41,33 @@ var titleLabel = Ti.UI.createLabel({
 	
 });
 
+var characters = Ti.UI.createTableView({
+	//**data: heroes,
+	top: border.top + border.height
+});
+
+if(Ti.Platform.name === "iPhone OS"){
+	characters.style = Ti.UI.iPhone.TableViewStyle.GROUPED;
+}
+
+heroesSection = Ti.UI.createTableViewSection({
+	headerTitle: "Heroes",
+	footerTitle: "Name"
+});
+
+villansSection = Ti.UI.createTableViewSection({
+	headerTitle: "Villans",
+	footerTitle: "Name"
+});
+
+var charactersSection = [heroesSection, villansSection];
+
+
+//**optional way for data
+characters.setData(charactersSection);
 
 //add and open
 titleView.add(titleLabel);
-mainWindow.add(titleView, border);
+mainWindow.add(titleView, border, characters);
 mainWindow.open();
 
