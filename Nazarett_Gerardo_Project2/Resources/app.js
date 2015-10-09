@@ -58,7 +58,7 @@ var mainWindow = Ti.UI.createWindow({
 
 var titleView = Ti.UI.createView({
 	backgroundColor: "#f2731d",
-	height: 65,
+	height: 60,
 	top: 0
 });
 
@@ -71,10 +71,10 @@ var border = Ti.UI.createView({
 var titleLabel = Ti.UI.createLabel({
 	text:"Heroes & Villians",
 	color: "#f5f5f5",
-	font: {fontSize: 20, familyFont: "Times Roman", fontStyle: "bold"},
+	font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"},
 	textAlign: "center",
 	width: "100%",
-	top: 30
+	top: 20
 	
 });
 
@@ -89,11 +89,13 @@ if(Ti.Platform.name === "iPhone OS"){
 var heroesSection = Ti.UI.createTableViewSection({
 	headerTitle: "Heores",
 	footerTitle: "Names"
+	font: {fontSize: 20, familyFont: "Times Roman", fontStyle: "bold"}
 });
 
 var villansSection = Ti.UI.createTableViewSection({
 	headerTitle: "Villans",
 	footerTitle: "Names"
+	font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"}
 });
 
 

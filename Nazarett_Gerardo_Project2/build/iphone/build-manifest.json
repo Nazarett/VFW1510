@@ -3043,5 +3043,6 @@
 	"copyright": "2015 by GD",
 	"guid": "a340dc2e-f95e-433a-9eee-1ba20c7872f6",
 	"skipJSMinification": true,
-	"encryptJS": false
+	"encryptJS": false,
+	"liveview": true
 }
