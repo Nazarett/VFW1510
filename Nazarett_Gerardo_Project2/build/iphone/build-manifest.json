@@ -2967,43 +2967,43 @@
 		},
 		"KS_nav_ui.png": {
 			"hash": "18ec851acf18b0938369efd0df278260",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 748
 		},
 		"KS_nav_views.png": {
 			"hash": "e147144461124f92c5407adec0572f45",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 683
 		},
 		"Default-568h@2x.png": {
 			"hash": "39604172bca979c1482b8526b4b8b207",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 525880
 		},
 		"Default-667h@2x.png": {
 			"hash": "cd720a317ac99489153461875e284c48",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 513122
 		},
 		"Default-Landscape-736h@3x.png": {
 			"hash": "d169ee386c84d555e7d20bacf62a10ef",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 1754751
 		},
 		"Default-Portrait-736h@3x.png": {
 			"hash": "2f066e1e962c31135a251b38f6393225",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 1039854
 		},
 		"Default@2x.png": {
 			"hash": "b62574a4fbe0f8216a44aff34bd62e05",
-			"mtime": "2015-10-07T01:37:11.000Z",
+			"mtime": "2015-10-09T02:24:39.000Z",
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "8bd162b2ae60c1e1a42d2f95c5b77ead",
-			"mtime": "2015-09-30T19:12:20.000Z",
-			"size": 493
+			"hash": "78574f0e628182a644de997912fcfd85",
+			"mtime": "2015-10-09T02:43:02.000Z",
+			"size": 237367
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",
