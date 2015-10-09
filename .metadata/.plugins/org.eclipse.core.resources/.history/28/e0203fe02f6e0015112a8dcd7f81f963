@@ -7,7 +7,7 @@ Ti.UI.setBackgroundColor("#000");
 
 //Data
 
-var heroes = [
+var shows = [
 		{
 			name: "Superman", 
 			description: "Also known as the man of steel lives in Metropolis as clark Kent reporter, but when trouble comes he becomes SUPERMAN."},
@@ -17,7 +17,7 @@ var heroes = [
 		{
 			name: "Green Lantern",
 			description: "Hal Jordan a pilot that doesn't believe in fear. Was choosen to be the defender of earth with a ring that gave reality to his imagination."},
-var villans = [
+var movies = [
 		{
 			name": "Lex Luther, 
 			description: "Evil billionaire with great intelligence main purpose is to rule the world. Also arch enemy of Superman."
