@@ -21,7 +21,7 @@ var hBio = function(){
 	var displayTitleLabel = Ti.UI.createLabel({
 		text:this.title,
 		color: "#f5f5f5",
-		font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"},
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 		textAlign: "center",
 		width: "100%",
 		top: 20
@@ -31,7 +31,8 @@ var hBio = function(){
 	//Heroes description display and buttons
 	var displayText = Ti.UI.createLabel({
 		text: this.desc,
-		font: {fontSize: 26, familyFont: "Times Roman"},
+		color: "#000",
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 		top: displayBorder.height + displayBorder.top + 40,
 		left: 10,
 		right: 10
@@ -42,7 +43,7 @@ var hBio = function(){
 		backgroundColor: "#333",
 		color: "#fff",
 		height: 50,
-		font: {fontSize: 24, familyFont: "Times Roman"},
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 		width: "100%",
 		bottom: 0,
 		textAlign: "center"
@@ -65,6 +66,7 @@ for(var i = 0, j = heroes.length; i<j; i++){
 	var theRow = Ti.UI.createTableViewRow({
 		title: heroes[i].title,
 		desc: heroes[i].description,
+		font: {fontSize: 20, fontFamily: "Times New Roman", fontStyle: "normal"},
 		hasChild: true
 	});
 	
@@ -101,7 +103,7 @@ var vBio = function(){
 	var displayTitleLabel = Ti.UI.createLabel({
 		text: this.title,
 		color: "#f5f5f5",
-		font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"},
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 		textAlign: "center",
 		width: "100%",
 		top: 20
@@ -112,7 +114,7 @@ var vBio = function(){
 	var displayText = Ti.UI.createLabel({
 		text: this.desc,
 		color: "#fff",
-		font: {fontSize: 26, familyFont: "Times Roman"},
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 		top: displayBorder.height + displayBorder.top + 40,
 		left: 10,
 		right: 10
@@ -123,7 +125,7 @@ var vBio = function(){
 		backgroundColor: "#fff",
 		color: "#000",
 		height: 50,
-		font: {fontSize: 24, familyFont: "Times Roman"},
+		font: {fontSize: 24, fontFamily: "Times New Roman", fontStyle: "normal"},
 		width: "100%",
 		bottom: 0,
 		textAlign: "center"
@@ -148,6 +150,7 @@ for(var i = 0, j = villans.length; i<j; i++){
 	var theRow = Ti.UI.createTableViewRow({
 		title: villans[i].title,
 		desc: villans[i].description,
+		font: {fontSize: 20, fontFamily: "Times New Roman", fontStyle: "normal"},
 		hasChild: true
 	});
 	

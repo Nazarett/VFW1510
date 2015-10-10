@@ -7,7 +7,7 @@ Ti.UI.setBackgroundColor("#000");
 
 var heroes = [
 	{"title": "Superman", 
-		"description": "Also known as the man of steel lives in Metropolis as clark Kent reporter, but when trouble comes he becomes SUPERMAN.",},
+		"description": "Also known as the man of steel lives in Metropolis as clark Kent reporter, but when trouble comes he becomes Superman.",},
 	{"title": "Hulk", 
 		"description": "David Banner suffered an accident and was exposed to gamma rays. so ever since the accident, you can say that you won't like him when his angry."},
 	{"title": "Green Lantern", 
@@ -46,7 +46,7 @@ var border = Ti.UI.createView({
 var titleLabel = Ti.UI.createLabel({
 	text:"Heroes & Villians",
 	color: "#f5f5f5",
-	font: {fontSize: 30, familyFont: "Times Roman", fontStyle: "bold"},
+	font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
 	textAlign: "center",
 	width: "100%",
 	top: 20
