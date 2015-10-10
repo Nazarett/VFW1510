@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Nazarett_Gerardo_Project2/Resources/eventListener.js&apos; to &apos;eventListeners.js&apos;" description="Rename resource &apos;eventListener.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Resources/eventListener.js" name="eventListeners.js" stamp="1444516092611" updateReferences="true"/>
+</session>

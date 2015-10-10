@@ -1,5 +1,5 @@
 
-Sat Oct 10 2015 15:25:46 GMT-0400 (EDT)
+Sat Oct 10 2015 18:27:53 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49389 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444505143575.json --no-banner
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49389 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444516071033.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib] Found iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
@@ -79,7 +79,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-b06cdb4dfe1fabeff4a7f8120d6b3dcdc38d7eff.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1828.984 sec ago
+[TRACE]  optimizing build, last build was 1665.129 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -140,6 +140,7 @@ Command
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
 [DEBUG]  Overwriting /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/liveview.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/app.js
+[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/Resources/eventListener.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/eventListener.js
 [DEBUG]  Overwriting /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/ti.cloud.js
 [INFO]   Writing app properties
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/_app_props_.json
@@ -156,13 +157,13 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 232ms
+[INFO]   Finished building the application in 1s 28ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
 [TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
-[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/9D05F94A-2302-45FD-B8FA-8E6F0958515D/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/A08F7997-F5CB-4907-B940-EFE5B99B649B/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
 [TRACE]  [ioslib] iPhone 5 Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/GD/Library/Logs/CoreSimulator/037C4283-E821-49FD-8480-041C89A163B3/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
@@ -174,4 +175,4 @@ Command
 [TRACE]  [Nazarett_Gerardo_Project2] assertion failed: 14F27 13A340: libxpc.dylib + 71578 [5150F854-0B13-3C60-8B86-891EC976986E]: 0x7d
 [TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
 [TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
-[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/E09759A5-E490-49CC-B312-049D1C6668E5/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/91559098-9492-4634-8806-F3CAE50AFE62/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
