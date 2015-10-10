@@ -1,5 +1,5 @@
 
-Thu Oct 08 2015 22:52:11 GMT-0400 (EDT)
+Sat Oct 10 2015 01:54:07 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50257 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444359128784.json --no-banner
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49389 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444456444553.json --no-banner
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Found iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Validating iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Found iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
 [INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
@@ -63,8 +63,8 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.0
-[INFO]   Building for iOS Simulator: iPhone 4s
-[DEBUG]  UDID: 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[INFO]   Building for iOS Simulator: iPhone 5
+[DEBUG]  UDID: 037C4283-E821-49FD-8480-041C89A163B3
 [DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 9.0
 [INFO]   Building for device family: iphone
@@ -77,11 +77,9 @@ Command
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-d60ffd0e844e6c770f5b53e6273b820e608a80cc.json
+[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-b06cdb4dfe1fabeff4a7f8120d6b3dcdc38d7eff.json
 [TRACE]  online 1
-[TRACE]  sending request {"json":{"username":"gnazarett@gmail.com","session":"d22426cb212e20f16260808c5cc2f13fbc1135d5 mMBZOa7x7FbHlkq+JvwVRTWWywyFXSqJ5mJZWacwjShZC64OItPHIaAosPBdxzWGQNOetH5R9/NT0QCgmUBYvzruwvWA8YpZDqC/AnevAM0v58kIz9lEHR0NBFPEzymu6EgnYUQ5tgjnAx4TBv7ESF69dKOAlgvvn9Y2soqZ9WU9hirGHQBKCsHBsEdUO/g6ktvummDLRTlFBSejm8HXsVm3xVj5axn0Nr+6yRJfBch1pdTCE6jb2x6i9UEyZHY4apOoq5VmYWPNn8sgKspug4OTSHun0qBef4r6K4IhnHXAce/OZtWJbwkRoUc7z1ndUGHh6DiV6SludyHo7WwR2Du2lvOLEOM6D1ZObnlNjfTY69UGpcFEK+uMwfJ7gyRmoqAGLvf+hiExQIsEsJsfQ1SqvwpoimdESGsum7BixQR8TO5a3Vo4q2erSMGWO2SV3FpeuSykbhmgcVSiPh26si/p/0CMPp93liA9EN5px0jRPOg8W9E8TTcecjbI+Fj8JMrgd0GQQTLnxAY/v3KNPuDHWiIEuv5+rVO3ZL/YV/W7pfSRxl6a5DdbwQlJR7kAqj0PmjWN2o4YMXPDP08vCgXlluvB5KMYA8HWpNyCYIrFk0bVhARFzrF9wp6K4obXJrSXDrRJuV1Abvoc/m21Fd7BkrFlWBNfTBWUVvIcBPVlf1YbbG63AVVE0x5CnpJAf0FgDYWelmrFNYsyBtFeVI3V8MP8NF+5NFq2iVkf+uYkFJwnurpf+QdImSwNfTuUGo/JiJdZJpWYqNGAAq2YZe9YgIdPR30NueuHK4Llz98=","ipaddress":"192.168.1.124","fingerprint":"690955e527ee236d0a167ee29a8d7aa880a528f4","fingerprint_description":"Mac OSX Serial Number: C02PF1Q2G3QN","guid":"a340dc2e-f95e-433a-9eee-1ba20c7872f6","appid":"com.nazarett.project2","name":"Nazarett_Gerardo_Project2","org_id":100055455,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.nazarett.project2</id>\n  <name>Nazarett_Gerardo_Project2</name>\n  <version>1.0</version>\n  <publisher>GD</publisher>\n  <url>http://</url>\n  <description>undefined</description>\n  <copyright>2015 by GD</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>a340dc2e-f95e-433a-9eee-1ba20c7872f6</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.0.2.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">5614774e67c17df77f2ddbfd</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">100055455</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">0e9be039-e638-4e44-9a27-c64b144fc230</property>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["development"],"modulePath":"/Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9","version":"3.2.9","manifest":{"version":"3.2.9","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"/Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
-[TRACE]  result from /build-verify=> {"key":"Y8nC1ejFWa2Q2IHnwPmF2A==","pepper":"speDdrPwlshBE1i2v9bmog==","hmacKey":"Z8nqR0LhU27MSeGdDHvKcg==","o":100055455,"u":"0e9be039-e638-4e44-9a27-c64b144fc230","p":"free","i":"56172bdc8cb04aede6122e15","success":true}, err=null
-[INFO]   JavaScript files need to be encrypted
+[TRACE]  optimizing build, last build was 1592.758 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -141,12 +139,12 @@ Command
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Overwriting /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/liveview.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/app_js
-[DEBUG]  Overwriting /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/ti_cloud_js
+[DEBUG]  Overwriting /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/liveview.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/app.js
+[DEBUG]  Overwriting /Users/GD/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/ti.cloud.js
 [INFO]   Writing app properties
-[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/_app_props__json
-[INFO]   Encrypting JavaScript files
-[INFO]   No JavaScript file changes, skipping titanium_prep
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
@@ -157,36 +155,20 @@ Command
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Classes/defines.h
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
-[INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Nazarett_Gerardo_Project2 -configuration Debug -scheme Nazarett_Gerardo_Project2 -derivedDataPath "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone" "OBJROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products" -destination "platform=iOS Simulator,id=430D3FF3-945C-4FD4-BEA3-13A664B7E3E8,OS=9.0"
-[TRACE]  User defaults from command line:
-[TRACE]      IDEDerivedDataPathOverride = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone
-[TRACE]  Build settings from command line:
-[TRACE]      OBJROOT = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates
-[TRACE]      SHARED_PRECOMPS_DIR = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/PrecompiledHeaders
-[TRACE]      SYMROOT = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products
-[TRACE]  
-[TRACE]  === BUILD TARGET Nazarett_Gerardo_Project2 OF PROJECT Nazarett_Gerardo_Project2 WITH CONFIGURATION Debug ===
-[TRACE]  Check dependencies
-[TRACE]  warning: Capabilities that require entitlements from "Nazarett_Gerardo_Project2.entitlements" may not function in the Simulator because no valid signing identities (i.e. certificate and private key pair) were found.
-[TRACE]  
-[TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 3s 725ms
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 814ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
-[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/329D26B6-818D-4F3C-BBE2-48F9EB644287/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
-[TRACE]  [ioslib] iPhone 4s Simulator already running with the correct udid
-[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/GD/Library/Logs/CoreSimulator/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/system.log
+[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/853A991D-8242-4B59-A7A1-70A85ACBCAB6/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] iPhone 5 Simulator already running with the correct udid
+[TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/GD/Library/Logs/CoreSimulator/037C4283-E821-49FD-8480-041C89A163B3/system.log
 [TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
+[TRACE]  [ioslib] iPhone 5 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 037C4283-E821-49FD-8480-041C89A163B3 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 com.nazarett.project2
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 037C4283-E821-49FD-8480-041C89A163B3 com.nazarett.project2
 [TRACE]  [ioslib] App launched
-[TRACE]  [Nazarett_Gerardo_Project2] assertion failed: 14F27 13A340: libxpc.dylib + 71578 [5150F854-0B13-3C60-8B86-891EC976986E]: 0x7d
-[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
-[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
-[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/AD0A348E-53C0-405D-89F6-4612F9F651A4/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/08FE7759-50B6-46C9-AC7C-39C89BB8F7E6/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log

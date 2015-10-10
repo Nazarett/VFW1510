@@ -1,0 +1,231 @@
+// JSON Objects
+var crap = {
+"things": {
+"crapTitle": "Things",
+"crapList" : [
+{
+"name": "thingOne",
+"description": "this is thingOne this is thingOne this is thingOne this is thingOne"
+},
+{
+"name": "thingTwo",
+"description": "thingTwo thingTwo thingTwo thingTwo thingTwo thingTwo thingTwo"
+},
+{
+"name": "thingThree",
+"description": "thingThree thingThree thingThree thingThree thingThree thingThree"
+}
+]
+
+},
+
+"junk": {
+"crapTitle": "Junk",
+"crapList" : [
+{
+"name": "junkOne",
+"description": "this is the broken junkOne description"
+},
+{
+"name": "junkTwo",
+"description": "this is the crappy junkTwo description"
+}
+
+]
+
+}
+
+};
+
+
+
+
+// background color for master UI - set to black
+Titanium.UI.setBackgroundColor('#000');
+
+// MAIN WINDOW
+
+// creates Main Widow
+var mainWindow = Ti.UI.createWindow({
+height: 65,
+backgroundColor: "#fff",
+top: 0
+});
+
+// creates Title View for Main Window
+var titleView = ti.UI.createView({
+height: 65,
+backgroundColor: "#fff",
+top: 0
+});
+
+// Creates Border
+var border = ti.UI.createView({
+backgroundColor: "f0f0f0",
+height: 1,
+top: titleView.height + titleView.top
+});
+
+// creates title for Main Window
+var titleLabel = ti.UI.createLabel({
+text: "This is my Things Title"
+font: {fontSize:20, fontFamily:"Arial", fontWeight:"bold"},
+top: 30,
+width: "100%",
+textAlign: "center"
+});
+
+
+// TABLE VIEW
+
+var crap = ti.UI.createTableView({  // creates a new table using the array to fill 
+data: things,  // uses the objects stored in the things array
+top: border.top + border.height + 20   // places the table 20px below the border
+});
+
+if (Ti.Plaform.name === "iPhone OS") {  // if the view is iPhone, then use this
+crap.style = Ti.UI.iPhone.tableViewStyle.GROUPED;  // sets the table view style for iPhone only
+};
+
+
+// TABLE VIEW SECTIONS
+
+var thingsSection = Ti.UI.createTableViewSection({   // adds new table view section
+headerTitle: "Things Section Header Title",   // prints the header at the top of the section   
+footerTitle: "Things Section Footer Title"   // prints the footer at the bottom of the section
+});
+
+var junkSection = Ti.UI.createTableViewSection({    // adds new table view section
+headerTitle: "Junk Section Header Title",   // prints the header at the top of the section
+footerTitle: "Junk Section Footer Title"   // prints the footer at the bottom of the section
+});
+
+
+// TABLE VIEW ROWS
+
+var getDetail function(){  // creates function for the Event Listener - tell the event listener what to do
+var detailWindow = Ti.UI.createWindow({
+backgroundColor: "#f3f3f3",  // bg color for the Detail Window
+});
+var detailTitleView = ti.UI.createView({  // Title View for the Detail Window
+height: 65,
+backgroundColor: "#fff",
+top: 0
+});
+
+var detailBorder = ti.UI.createView({  // border for the Detail Window
+backgroundColor: "f0f0f0",
+height: 1,
+top: detailTitleView.height + detailTitleView.top
+});
+
+var detailTitleLabel = ti.UI.createLabel({ // Title Label for the Detail Window
+text: this.title,  // calls the property from the function's parent property as the title. In this case it's theRow.
+font: {fontSize:20, fontFamily:"Arial", fontWeight:"bold"},
+top: 30,
+width: "100%",
+textAlign: "center"
+});
+
+detailTitleView.add(detailTitleLabel);  // adds the Detail Title Label to the Detail Title View
+detailWindow.add(detailTitleVew, detailBorder);  // adds Detail Title View and Detail Border to the Detail Window
+
+detailWindow.open();   // opens the Detail View Window when this function is called
+}
+
+for(var i=0, j=things.length; i<j; i++){   // loops through all the objects inside the things array
+var theRow = Ti.UI.createTableViewRow({   // creates new Table View Row
+title: things[i].title,  // displays the title property of the objects in the things array
+hasChild: true  // adds > icon indicating that the item is clickable for iOS and Android only
+});
+
+if (Ti.Plaform.name === "iPhone OS") {  // <OPTIONAL> if the view is iPhone, then use this
+theRow.hasChild: false;  // <OPTIONAL> removes this property for iOS
+theRow.hasDetail: true // <OPTIONAL> creates an (i) icon indicating that the item is clickable for iOS only
+};
+
+thingsSection.add(theRow);  // adds theRow to the thingsSection
+theRow.addEventListener("click", getDetail);  // adds Event Listener to theRow
+}
+
+for(var i=0, j=junk.length; i<j; i++){   // loops through all the objects inside the junk array
+var theRow = Ti.UI.createTableViewRow({   // creates new Table View Row
+title:  junk[i].title,  // displays the title property of the objects in the junk array
+hasChild: true  // creates an icon indicating that the item is clickable
+});
+junkSection.add(theRow);
+}
+
+// DISPLAY INFORMATION IN TABLE SECTIONS
+
+var crapSections = [thingsSection, junkSection];   // collects Table View Sections into an array
+
+crap.setData(crapSections);  // you can use this method to pass the things array objects into the table - this must be an array of objects
+
+
+titleView.add(titleLabel);
+mainWindow.add(titleView, border, crap);
+mainWindow.open();
+
+
+// NAV WINDOW
+
+var navWindow = Ti.UI.iOS.createNavigationWindow({
+window: mainWindow
+});
+var getDetail = function(){
+var detailWindow = Ti.UI.createWindow({
+title: this.text,
+backgroundColor: "#f5f5f5"
+});
+var detailText = Ti.UI.createLabel({
+text: this.details,
+top: 30,
+left: 15,
+right: 15
+});
+detailWindow.add(detailText);
+navWindow.openWindow(detailWindow)
+};
+
+var makeUI = function(){
+var spacing = 80;
+for(n in ships){
+var titleLabel = Ti.UI.createLabel({
+
+text: ships(n).theTitle,
+left: 15,
+right: 15,
+top: spacing,
+height: 25,
+backgroundColor: "#333",
+font: {fontSize: 22, fontFamily: "Arial"},
+color: "#f0f0f0"
+})
+spacing = titleLabel.top + titleLabel.height + 10;
+console.log(spacing);
+for(m in ships[n].shipList) {
+var itemLabel = Ti.UI.createLabel({
+text: ships[n].SshipList[m].name,
+details: ships[n].shipList[m].description,
+left: 30,
+right: 15,
+top: spacing,
+height: 25,
+backgroundColor: "#fff",
+font: {fontSize: 22, fontFamily: "Arial"},
+color: "#333"
+})
+ 
+mainWindow.add(itemLabel);
+spacing = itemLabel.top + itemLabel.height + 10;
+itemLabel.addEventListener("click", getDetail);
+}
+mainWindow.add(titleLabel);
+spacing = itemLabel.top + itemLabel.height + 40;
+}
+};
+
+makeUI();
+
+navWindow.open();
