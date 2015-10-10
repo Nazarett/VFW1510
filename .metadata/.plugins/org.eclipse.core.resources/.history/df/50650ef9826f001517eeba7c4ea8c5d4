@@ -1,0 +1,184 @@
+/*
+1. Create a multi window application (table view with detail windows).
+2. The window should have a title.
+3. Create a JSON object with data about some topic you choose. Please keep the topics school appropriate. Your JSON object must contain at least:
+	- Two properties that will represent your table view sections. These will serve as categories for your data. These properties should contain at least:
+		- One property for your table view section title
+		- One property for your table view section footer
+		- One property for your table view row data. This data should be an array of objects and will serve as items in a category. Each object in the array should have at least title and description property with appropriate values. You may add more properties and values if you wish. You can refer to the videos this week for an example of JSON data needed for this project.
+4. Create a table
+5. Create one table view section for each category in your JSON object.
+6. Create one row for each item in your cateogry. Each row should have the title and right arrow icon diplayed.
+7. Add an event listener for each row. Clicking each row should open a new window using Navigation Groups to display the row's title and description information.
+8. Your detail window should have a backgroundColor or backgroundImage. Text should be given a size, color, and font style and must be legible. Give adequate spacing between your objects.
+9. Load your second .js file into your app.js file.
+*/
+
+
+
+
+
+// DATA SECTION
+
+var things = [
+	{
+		title: "thingOne",
+		description: "this is Thing One"
+	},
+	{
+		title: "thingTwo",
+		description: "this is Thing Two"
+	},
+	{
+		title: "thingThree",
+		description: "this is Thing Three"
+	},
+	{
+		title: "thingFour",
+		description: "this is Thing Four"
+	},
+	{
+		title: "thingFive",
+		description: "this is Thing Five"
+	}
+];
+
+
+var junk = [
+	{
+		title: "junkOne",
+		description: "this is Junk One"
+	},
+	{
+		title: "junkTwo",
+		description: "this is Junk Two"
+	},
+	{
+		title: "junkThree",
+		description: "this is Junk Three"
+	}
+];
+
+// background color for master UI - set to black
+Titanium.UI.setBackgroundColor('#000');
+
+var mainWindow = Ti.UI.createWindow({
+	height: 65,
+	backgroundColor: "#fff",
+	top: 0
+});
+
+var titleView = ti.UI.createView({
+	height: 65,
+	backgroundColor: "#fff",
+	top: 0
+});
+
+var border = ti.UI.createView({
+	backgroundColor: "f0f0f0",
+	height: 1,
+	top: titleView.height + titleView.top
+});
+
+var titleLabel = ti.UI.createLabel({
+	text: "This is my Things Title"
+	font: {fontSize:20, fontFamily:"Arial", fontWeight:"bold"},
+	top: 30,
+	width: "100%",
+	textAlign: "center"
+});
+
+
+// CREATE TABLE VIEW
+
+var crap = ti.UI.createTableView({  // creates a new table using the array to fill 
+	data: things,  // uses the objects stored in the things array
+	top: border.top + border.height + 20   // places the table 20px below the border
+});
+
+if (Ti.Plaform.name === "iPhone OS") {  // if the view is iPhone, then use this
+	crap.style = Ti.UI.iPhone.tableViewStyle.GROUPED;  // sets the table view style for iPhone only
+};
+
+
+// CREATE TABLE VIEW SECTIONS
+
+var thingsSection = Ti.UI.createTableViewSection({   // adds new table view section
+	headerTitle: "Things Section Header Title",   // prints the header at the top of the section   
+	footerTitle: "Things Section Footer Title"   // prints the footer at the bottom of the section
+});
+
+var junkSection = Ti.UI.createTableViewSection({    // adds new table view section
+	headerTitle: "Junk Section Header Title",   // prints the header at the top of the section
+	footerTitle: "Junk Section Footer Title"   // prints the footer at the bottom of the section
+});
+
+
+// CREATE TABLE VIEW ROWS
+
+var getDetail function(){  // creates function for the Event Listener - tell the event listener what to do
+	var detailWindow = Ti.UI.createWindow({
+		backgroundColor: "#f3f3f3",  // bg color for the Detail Window
+	});
+	var detailTitleView = ti.UI.createView({  // Title View for the Detail Window
+		height: 65,
+		backgroundColor: "#fff",
+		top: 0
+	});
+
+	var detailBorder = ti.UI.createView({  // border for the Detail Window
+		backgroundColor: "f0f0f0",
+		height: 1,
+		top: detailTitleView.height + detailTitleView.top
+	});
+
+	var detailTitleLabel = ti.UI.createLabel({ // Title Label for the Detail Window
+		text: this.title,  // calls the property from the function's parent property as the title. In this case it's theRow.
+		font: {fontSize:20, fontFamily:"Arial", fontWeight:"bold"},
+		top: 30,
+		width: "100%",
+		textAlign: "center"
+	});
+
+	detailTitleView.add(detailTitleLabel);  // adds the Detail Title Label to the Detail Title View
+	detailWindow.add(detailTitleVew, detailBorder);  // adds Detail Title View and Detail Border to the Detail Window
+
+	detailWindow.open();   // opens the Detail View Window when this function is called
+}
+
+for(var i=0, j=things.length; i<j; i++){   // loops through all the objects inside the things array
+	var theRow = Ti.UI.createTableViewRow({   // creates new Table View Row
+		title: things[i].title,  // displays the title property of the objects in the things array
+		hasChild: true  // adds > icon indicating that the item is clickable for iOS and Android only
+	});
+
+	if (Ti.Plaform.name === "iPhone OS") {  // <OPTIONAL> if the view is iPhone, then use this
+		theRow.hasChild: false;  // <OPTIONAL> removes this property for iOS
+		theRow.hasDetail: true // <OPTIONAL> creates an (i) icon indicating that the item is clickable for iOS only
+};
+
+	thingsSection.add(theRow);  // adds theRow to the thingsSection
+	theRow.addEventListener("click", getDetail);  // adds Event Listener to theRow
+}
+
+for(var i=0, j=junk.length; i<j; i++){   // loops through all the objects inside the junk array
+	var theRow = Ti.UI.createTableViewRow({   // creates new Table View Row
+		title:  junk[i].title,  // displays the title property of the objects in the junk array
+		hasChild: true  // creates an icon indicating that the item is clickable
+	});
+	junkSection.add(theRow);
+}
+
+
+// DISPLAY INFORMATION IN TABLE SECTIONS
+
+var crapSections = [thingsSection, junkSection];   // collects Table View Sections into an array
+
+crap.setData(crapSections);  // you can use this method to pass the things array objects into the table - this must be an array of objects
+
+
+
+
+titleView.add(titleLabel);
+mainWindow.add(titleView, border, crap);
+mainWindow.open();
