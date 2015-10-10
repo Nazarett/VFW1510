@@ -96,13 +96,13 @@ var makeUI = function(){
 			var itemLabel =Ti.UI.createLabel({
 				text: characters[n].charactersList[m].name,
 				details: characters[n].charactersList[m].description,
-				left: 4,
-				right: 4,
+				left: 30,
+				right: 15,
 				top: spacing,
 				height: 25,
 				backgroundColor: "#fff",
 				font: {fontSize: 22, familiFont: "Times Roman"},
-				color: "#000"
+				color: "orange"
 			});
 			mainWindow.add(itemLabel);
 			spacing = itemLabel.top + itemLabel.height + 10;
