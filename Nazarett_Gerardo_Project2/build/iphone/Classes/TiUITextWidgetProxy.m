@@ -3,8 +3,6 @@
  * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #if defined(USE_TI_UITEXTWIDGET) || defined(USE_TI_UITEXTAREA) || defined(USE_TI_UITEXTFIELD)
 
@@ -188,7 +186,7 @@ DEFINE_DEF_BOOL_PROP(suppressReturn,YES);
     //
     // - Any property setter which potentially takes an array of proxies MUST ALWAYS have its
     // content evaluated to protect them. This is INCREDIBLY CRITICAL and almost certainly a major
-    // source of memory bugs in Nazarett_Gerardo_Project2 iOS!!!
+    // source of memory bugs in Titanium iOS!!!
     //
     // - Any property setter which is active on the main thread only MAY NOT protect their object
     // correctly or in time (see the comment in -[KrollObject noteKeylessKrollObject:]).

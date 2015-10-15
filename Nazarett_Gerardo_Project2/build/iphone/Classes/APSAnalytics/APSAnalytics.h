@@ -1,10 +1,8 @@
 /**
  * APS Analytics
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2014 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <Foundation/Foundation.h>
@@ -20,9 +18,9 @@ extern NSString * const APSDeployTypeProduction;
 
 /**
  * The APSAnalytics class configures the application to use the APS analytic services
- * to send analytic data that can be viewed on the Nazarett_Gerardo_Project2 Dashboard.
+ * to send analytic data that can be viewed on the Appcelerator Dashboard.
  *
- * For information on getting started with Nazarett_Gerardo_Project2 Platform Services,
+ * For information on getting started with Appcelerator Platform Services,
  * see [Appclerator Platform Services for iOS](http://bit.ly/1kqteQS).
  */
 @interface APSAnalytics : NSObject

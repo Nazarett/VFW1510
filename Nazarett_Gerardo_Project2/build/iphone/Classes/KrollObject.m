@@ -3,8 +3,6 @@
  * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <objc/runtime.h>
 #import "SBJSON.h"
@@ -308,10 +306,10 @@ bool KrollSetProperty(TiContextRef jsContext, TiObjectRef object, TiStringRef pr
 
 // forward declare these
 
-//@interface Nazarett_Gerardo_Project2Object : NSObject
+//@interface TitaniumObject : NSObject
 //@end
 
-@interface Nazarett_Gerardo_Project2Object (Private)
+@interface TitaniumObject (Private)
 -(NSDictionary*)modules;
 @end
 
@@ -329,9 +327,9 @@ void KrollPropertyNames(TiContextRef ctx, TiObjectRef object, TiPropertyNameAccu
 	{
 		id target = [o target];
 		
-		if ([o isKindOfClass:[Nazarett_Gerardo_Project2Object class]])
+		if ([o isKindOfClass:[TitaniumObject class]])
 		{
-			for (NSString *key in [[(Nazarett_Gerardo_Project2Object*)o modules] allKeys])
+			for (NSString *key in [[(TitaniumObject*)o modules] allKeys])
 			{
 				TiStringRef value = TiStringCreateWithUTF8CString([key UTF8String]);
 				TiPropertyNameAccumulatorAddName(propertyNames,value);

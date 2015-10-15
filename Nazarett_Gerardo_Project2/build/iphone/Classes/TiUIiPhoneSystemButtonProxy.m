@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_UIIPHONESYSTEMBUTTON
 
@@ -40,12 +38,12 @@ MAKE_SYSTEM_PROP(DONE,UIBarButtonSystemItemDone);
 MAKE_SYSTEM_PROP(FLEXIBLE_SPACE,UIBarButtonSystemItemFlexibleSpace);
 MAKE_SYSTEM_PROP(FIXED_SPACE,UIBarButtonSystemItemFixedSpace);
 
-MAKE_SYSTEM_PROP(ACTIVITY,UINazarett_Gerardo_Project2NativeItemSpinner);
-MAKE_SYSTEM_PROP(SPINNER,UINazarett_Gerardo_Project2NativeItemSpinner);
-MAKE_SYSTEM_PROP(INFO_LIGHT,UINazarett_Gerardo_Project2NativeItemInfoLight);
-MAKE_SYSTEM_PROP(INFO_DARK,UINazarett_Gerardo_Project2NativeItemInfoDark);
-MAKE_SYSTEM_PROP(DISCLOSURE,UINazarett_Gerardo_Project2NativeItemDisclosure);
-MAKE_SYSTEM_PROP(CONTACT_ADD,UINazarett_Gerardo_Project2NativeItemContactAdd);
+MAKE_SYSTEM_PROP(ACTIVITY,UITitaniumNativeItemSpinner);
+MAKE_SYSTEM_PROP(SPINNER,UITitaniumNativeItemSpinner);
+MAKE_SYSTEM_PROP(INFO_LIGHT,UITitaniumNativeItemInfoLight);
+MAKE_SYSTEM_PROP(INFO_DARK,UITitaniumNativeItemInfoDark);
+MAKE_SYSTEM_PROP(DISCLOSURE,UITitaniumNativeItemDisclosure);
+MAKE_SYSTEM_PROP(CONTACT_ADD,UITitaniumNativeItemContactAdd);
 
 
 @end

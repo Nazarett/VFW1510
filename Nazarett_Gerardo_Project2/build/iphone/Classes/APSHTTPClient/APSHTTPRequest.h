@@ -1,10 +1,8 @@
 /**
- * Nazarett_Gerardo_Project2 APSHTTPClient Library
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Appcelerator APSHTTPClient Library
+ * Copyright (c) 2014-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 
 #import <Foundation/Foundation.h>
@@ -77,7 +75,7 @@ typedef NS_ENUM(NSInteger, APSRequestError) {
  */
 @property(nonatomic, strong, readwrite) NSArray                          *runModes;
 
-// Only used in Nazarett_Gerardo_Project2 ImageLoader
+// Only used in Titanium ImageLoader
 @property(nonatomic, strong, readwrite) NSDictionary                     *userInfo;
 
 -(void)send;

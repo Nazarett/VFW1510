@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #ifdef USE_TI_UIBUTTON
 
@@ -68,10 +66,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UINazarett_Gerardo_Project2NativeItemInfoLight:
-		case UINazarett_Gerardo_Project2NativeItemInfoDark:
+		case UITitaniumNativeItemInfoLight:
+		case UITitaniumNativeItemInfoDark:
 			return 18;
-		case UINazarett_Gerardo_Project2NativeItemDisclosure:
+		case UITitaniumNativeItemDisclosure:
 			return 29;
 		default: {
 			break;
@@ -84,10 +82,10 @@
 {
 	switch((int)styleCache)
 	{
-		case UINazarett_Gerardo_Project2NativeItemInfoLight:
-		case UINazarett_Gerardo_Project2NativeItemInfoDark:
+		case UITitaniumNativeItemInfoLight:
+		case UITitaniumNativeItemInfoDark:
 			return 19;
-		case UINazarett_Gerardo_Project2NativeItemDisclosure:
+		case UITitaniumNativeItemDisclosure:
 			return 31;
 		default: {
 			break;
@@ -101,9 +99,9 @@
 {
 	switch ((int)styleCache)
 	{
-		case UINazarett_Gerardo_Project2NativeItemInfoLight:
-		case UINazarett_Gerardo_Project2NativeItemInfoDark:
-		case UINazarett_Gerardo_Project2NativeItemDisclosure:
+		case UITitaniumNativeItemInfoLight:
+		case UITitaniumNativeItemInfoDark:
+		case UITitaniumNativeItemDisclosure:
 			return suggestedResizing & ~(UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
 		default: {
 			break;

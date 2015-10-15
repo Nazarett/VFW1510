@@ -4,7 +4,7 @@
 // No warranty is expressed or implied.
 
 
-// NOTE: Nazarett_Gerardo_Project2 modified to convert from Category to 
+// NOTE: Appcelerator modified to convert from Category to 
 // new Class name since iPhone seems to have some issues with Categories
 // of built in Classes
 

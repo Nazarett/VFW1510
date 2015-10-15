@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -111,7 +109,7 @@ typedef enum {
 @end
 
 /**
- The ImageLoader class provides a centralized point for loading images in Nazarett_Gerardo_Project2.
+ The ImageLoader class provides a centralized point for loading images in Titanium.
  Using ImageLoader is the preferred way for getting images from remote sources.
  
  The class is singleton and not supposed to be subclassed.

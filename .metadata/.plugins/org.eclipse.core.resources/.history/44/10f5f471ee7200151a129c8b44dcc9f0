@@ -1,0 +1,22 @@
+//Main Window
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#c9c3c3"
+});
+
+	
+	var colButton = Ti.UI.createLabel({
+		text: "Collage",
+		backgroundColor: "#333",
+		color: "#fff",
+		height: 30,
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal"},
+		width: "100%",
+		bottom: 0,
+		textAlign: "center"
+	});
+	
+
+
+mainWindow.add(colButton);
+mainWindow.open();

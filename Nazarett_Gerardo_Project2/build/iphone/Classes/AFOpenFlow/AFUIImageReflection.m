@@ -27,7 +27,7 @@
 #import "AFUIImageReflection.h"
 
 
-// Nazarett_Gerardo_Project2 modification note: 
+// Appcelerator modification note: 
 // using categories with static libraries don't seem to work
 // right on device with iphone - probably a symbol issue
 // turn this into a static function (from what was a category to UIImage

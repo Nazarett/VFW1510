@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #if defined(USE_TI_UIIPADDOCUMENTVIEWER) || defined(USE_TI_UIIOSDOCUMENTVIEWER)
 #import "TiUIiOSDocumentViewerProxy.h"
@@ -90,7 +88,7 @@
 	ENSURE_TYPE(value,NSString);
 	NSURL *url = [TiUtils toURL:value proxy:self];
 	//UIDocumentInteractionController is recommended to be a new instance for every different url
-	//instead of having _nazarett_gerardo_project2 developer create a new instance every time a new document url is loaded
+	//instead of having titanium developer create a new instance every time a new document url is loaded
 	//we assume that setUrl is called to change doc, so we go ahead and release the controller and create
 	//a new one when asked to present
 	RELEASE_TO_NIL(controller);

@@ -3,8 +3,6 @@
  * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -60,7 +58,7 @@ extern "C" {
 	#define KMETHOD_DEBUG MEMORY_DEBUG
 #endif
 
-// in simulator we redefine to format for Nazarett_Gerardo_Project2 Developer console
+// in simulator we redefine to format for Titanium Developer console
 
 
 #define TI_INLINE static __inline__
@@ -309,13 +307,13 @@ void TiExceptionThrowWithNameAndReason(NSString *exceptionName, NSString *reason
 #define DEFINE_EXCEPTIONS \
 - (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = [@"org.nazarett_gerardo_project2." stringByAppendingString:NSStringFromClass([self class])];\
+	NSString * exceptionName = [@"org.appcelerator." stringByAppendingString:NSStringFromClass([self class])];\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 \
 + (void) throwException:(NSString *) reason subreason:(NSString*)subreason location:(NSString *)location\
 {\
-	NSString * exceptionName = @"org.nazarett_gerardo_project2";\
+	NSString * exceptionName = @"org.appcelerator";\
 	TiExceptionThrowWithNameAndReason(exceptionName,reason,subreason,location);\
 }\
 
@@ -426,28 +424,28 @@ DebugLog(@"[WARN] Ti%@.%@ DEPRECATED in %@, in favor of %@.",@"tanium",api,in,ne
 
  //MUST BE NEGATIVE, as it inhabits the same space as UIBarButtonSystemItem
 enum {
-	UINazarett_Gerardo_Project2NativeItemNone = -1, 
-	UINazarett_Gerardo_Project2NativeItemSpinner = -2,
-	UINazarett_Gerardo_Project2NativeItemProgressBar = -3,
+	UITitaniumNativeItemNone = -1, 
+	UITitaniumNativeItemSpinner = -2,
+	UITitaniumNativeItemProgressBar = -3,
 	
-	UINazarett_Gerardo_Project2NativeItemSlider = -4,
-	UINazarett_Gerardo_Project2NativeItemSwitch = -5,
-	UINazarett_Gerardo_Project2NativeItemMultiButton = -6,
-	UINazarett_Gerardo_Project2NativeItemSegmented = -7,
+	UITitaniumNativeItemSlider = -4,
+	UITitaniumNativeItemSwitch = -5,
+	UITitaniumNativeItemMultiButton = -6,
+	UITitaniumNativeItemSegmented = -7,
 	
-	UINazarett_Gerardo_Project2NativeItemTextView = -8,
-	UINazarett_Gerardo_Project2NativeItemTextField = -9,
-	UINazarett_Gerardo_Project2NativeItemSearchBar = -10,
+	UITitaniumNativeItemTextView = -8,
+	UITitaniumNativeItemTextField = -9,
+	UITitaniumNativeItemSearchBar = -10,
 	
-	UINazarett_Gerardo_Project2NativeItemPicker = -11,
-	UINazarett_Gerardo_Project2NativeItemDatePicker = -12,
+	UITitaniumNativeItemPicker = -11,
+	UITitaniumNativeItemDatePicker = -12,
 	
-	UINazarett_Gerardo_Project2NativeItemInfoLight = -13,
-	UINazarett_Gerardo_Project2NativeItemInfoDark = -14,
+	UITitaniumNativeItemInfoLight = -13,
+	UITitaniumNativeItemInfoDark = -14,
 	
-	UINazarett_Gerardo_Project2NativeItemDisclosure = -15,
+	UITitaniumNativeItemDisclosure = -15,
 	
-	UINazarett_Gerardo_Project2NativeItemContactAdd = -16
+	UITitaniumNativeItemContactAdd = -16
 };
 
 
@@ -632,7 +630,7 @@ void incrementKrollCounter();
 void decrementKrollCounter();
 #endif
 /**
- *	TiThreadPerformOnMainThread should replace all Nazarett_Gerardo_Project2 instances of
+ *	TiThreadPerformOnMainThread should replace all Titanium instances of
  *	performSelectorOnMainThread, ESPECIALLY if wait is to be yes. That way,
  *	exceptional-case main thread activities can process them outside of the
  *	standard event loop.

@@ -1,0 +1,36 @@
+//Main Window
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#55abe5"
+});
+
+	
+	var colButton = Ti.UI.createLabel({
+		text: "COLLAGE",
+		backgroundColor: "orange",
+		color: "#000",
+		hasChild:true,
+		height: 50,
+		font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal", fontWeight: "bold"},
+		width: "80%",
+		textAlign: "center"
+	});
+	
+	var gallery = function(){
+	
+
+	var galView = Ti.UI.createLabel({
+		color: "#000",
+	
+	});
+	
+	mainWindow.add(galView);
+};
+
+	
+	colButton.addEventListener("click", gallery);
+	
+
+
+mainWindow.add(colButton);
+mainWindow.open();

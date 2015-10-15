@@ -1,10 +1,8 @@
 /**
  * Appcelerator Titanium Mobile
- * Copyright (c) 2009-2015 by Appcelerator, Inc. All Rights Reserved.
+ * Copyright (c) 2009-2010 by Appcelerator, Inc. All Rights Reserved.
  * Licensed under the terms of the Apache Public License
  * Please see the LICENSE included with this distribution for details.
- * 
- * WARNING: This is generated code. Modify at your own risk and without support.
  */
 #import "TiEvaluator.h"
 #import "KrollCallback.h"
@@ -32,7 +30,7 @@ extern NSString * const TiExceptionInternalInconsistency;
 //Should be rare, but also useful if arguments are used improperly.
 extern NSString * const TiExceptionInternalInconsistency;
 
-//Rare exceptions to indicate a bug in the _nazarett_gerardo_project2 code (Eg, function that a subclass should have implemented)
+//Rare exceptions to indicate a bug in the titanium code (Eg, function that a subclass should have implemented)
 extern NSString * const TiExceptionUnimplementedFunction;
 
 //Rare exception in the case of malloc failure
@@ -101,7 +99,7 @@ void DoProxyDelegateReadValuesWithKeysFromProxy(UIView<TiProxyDelegate> * target
 
 
 /**
- The base class for Nazarett_Gerardo_Project2 proxies.
+ The base class for Titanium proxies.
  */
 @interface TiProxy : NSObject<KrollTargetable> {
 @public
