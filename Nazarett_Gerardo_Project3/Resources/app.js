@@ -1,61 +1,57 @@
-//Intro Window
-var introWindow = Ti.UI.createWindow({
-	backgroundColor: "#bbb"  // lt grey
+//Main Window
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#55abe5"
 });
 
-//Welcome View
-var welcome = Ti.UI.createView({
-	backgroundColor: "#f7b92a",  // yellow
-	height: 500,
-	width: "100%",
-	top: 20
+var disView = Ti.UI.createView({
+	backgroundColor: "fff",
+	height: 50,
+	width: "99%",
+	top : 20,
+	border: 4,
+	borderWidth: 2,
+	borderRadius:10,
+	borderColor: "orange" 
 });
 
-
-//Title Label
-
-var titleText = Ti.UI.createLabel({
-	text: "Julie's Gallery",
-	color: "#fff",  // White
-	font: {fontSize: 30, fontFamily: "Helvetica", fontWeight: "bold"},
+var disTitle = Ti.UI.createLabel({
+	text: "Welcome To My Gallery",
+	color:"#000",
+	font: {fontSize: 26, fontFamily: "Times New Roman", fontWeight: "bold"},
 	textAlign: "center",
-	top: 25
-});
-
-//Welcome Label
-var welcomeText = Ti.UI.createLabel({
+	top : 10
 	
-	text: "This is my gallery.",
-	color: "#fff",  // white
-	font: {fontSize: 12, fontFamily: "Helvetica", fontWeight: "bold"},
-	textAlign: "center",
-	left: 20,
-	right: 20,
-	top: 85
 });
 
-//Intro Button View
-var introButton = Ti.UI.createView({
-	backgroundColor: "#f7f5f4", // whitish
-	height: 100,
-	width: 300,
-	borderRadius: 50,
-	//top: welcome.top + welcome.height + 20
-	bottom: 30
+var colView = Ti.UI.createView({
+	backgroundColor: "orange",
+	height: 50,
+	width: "60%",
+	border: 4,
+	borderWidth: 2,
+	borderRadius: 20,
+	borderColor: "fff"
 });
-
-//Intro Button Label
-var buttonText = Ti.UI.createLabel({
-	text: "Touch Me",
-	color: "#000", // black
-	font: {fontSize: 40, fontFamily: "Helvetica", fontWeight: "bold"},
+	
+var colButton = Ti.UI.createLabel({
+	text: "COLLAGE",
+	backgroundColor: "orange",
+	color: "#000",
+	height: 50,
+	font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal", fontWeight: "bold"},
+	width: "80%",
 	textAlign: "center"
 });
 
-//Loading gallerycode.js
-//var loadFile = require("content");
+var gallery = function(){
+	
+};
 
-welcome.add(titleText, welcomeText);
-introWindow.add(welcome, introButton);
-introButton.add(buttonText);
-introWindow.open();
+colView.addEventListener("click", gallery);
+
+	
+disView.add(disTitle);
+colView.add(colButton);
+mainWindow.add(colView,disView);
+mainWindow.open();

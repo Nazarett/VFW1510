@@ -1,0 +1,56 @@
+//Main Window
+
+var mainWindow = Ti.UI.createWindow({
+	backgroundColor: "#55abe5"
+});
+
+var disView = Ti.UI.createView({
+	backgroundColor: "fff",
+	height: 50,
+	width: "100%",
+	top : 20,
+	border:10,
+	//borderRadius:10,
+	borderColor: "orange" 
+});
+
+var disTitle = Ti.UI.createLabel({
+	text: "Welcome To My Gallery",
+	textStroke:{ size: 1, color: "orange"}
+	color:"#000",
+	font: {fontSize: 26, fontFamily: "Times New Roman", fontWeight: "bold"},
+	textAlign: "center",
+	top : 10
+	
+});
+
+var colView = Ti.UI.createView({
+	backgroundColor: "orange",
+	height: 50,
+	width: "80%",
+	border: 3,
+	borderRadius: 20,
+	borderColor: "000"
+});
+	
+var colButton = Ti.UI.createLabel({
+	text: "COLLAGE",
+	backgroundColor: "orange",
+	color: "#000",
+	height: 50,
+	font: {fontSize: 30, fontFamily: "Times New Roman", fontStyle: "normal", fontWeight: "bold"},
+	width: "80%",
+	textAlign: "center"
+});
+
+var gallery = function(){
+	
+};
+
+colView.addEventListener("click", gallery);
+
+	
+disView.add(disTitle);
+colView.add(colButton);
+mainWindow.add(colView,disView);
+mainWindow.open();
