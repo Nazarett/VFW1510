@@ -53,7 +53,7 @@ var buttonText = Ti.UI.createLabel({
 });
 
 //Loading gallerycode.js
-//var loadFile = require("content");
+var loadFile = require("content");
 
 welcome.add(titleText, welcomeText);
 introWindow.add(welcome, introButton);

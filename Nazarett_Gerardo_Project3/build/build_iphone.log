@@ -1,5 +1,5 @@
 
-Thu Oct 15 2015 01:48:16 GMT-0400 (EDT)
+Thu Oct 15 2015 01:57:18 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49439 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444888093220.json --no-banner
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49439 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444888636059.json --no-banner
 
 [TRACE]  [ioslib] Validating iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib] Found iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
@@ -77,7 +77,7 @@ Command
 [INFO]   Initializing the build directory
 [TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-e5f106a64b9a42fbf1a7705856cc568e4fd1ddad.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 1716.13 sec ago
+[TRACE]  optimizing build, last build was 2258.268 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -130,36 +130,36 @@ Command
 [DEBUG]  Copying resources
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/KS_nav_ui.png
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/KS_nav_views.png
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/ball.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/ball.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/bar.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bar.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/bell.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bell.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/bikes.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bikes.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/blue.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/blue.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/carlos.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/carlos.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/cast.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/cast.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/chain.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/chain.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/crash.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/crash.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/finger.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/finger.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/flor.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/flor.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/ham.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/ham.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/hi.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/hi.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/jason.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/jason.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/load.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/load.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/maduro.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/maduro.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/makro.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/makro.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/meat.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/meat.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/mona.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/mona.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/more.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/more.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/murphy.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/murphy.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/orange.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/orange.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/oreo.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/oreo.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/pan.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/pan.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/red.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/red.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/scorpion.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/scorpion.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/spok.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/spok.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/tambor.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/tambor.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/viernes.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/viernes.jpg
-[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/Resources/pics/white.jpg => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/white.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/ball.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bar.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bell.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/bikes.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/blue.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/carlos.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/cast.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/chain.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/crash.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/finger.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/flor.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/ham.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/hi.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/jason.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/load.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/maduro.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/makro.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/meat.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/mona.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/more.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/murphy.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/orange.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/oreo.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/pan.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/red.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/scorpion.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/spok.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/tambor.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/viernes.jpg
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app/pics/white.jpg
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
@@ -184,18 +184,15 @@ Command
 [INFO]   Removing files
 [DEBUG]  Removing empty directories
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 1s 500ms
+[INFO]   Finished building the application in 970ms
 [INFO]   Launching iOS Simulator
 [TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
 [TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
-[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/659F0771-E15B-4E36-A054-18567FF42743/Documents/b176769c-aa41-4e22-9111-69d58b54d24d.log
+[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/E8DD14C4-4731-4850-9E4A-B06138C64863/Documents/b176769c-aa41-4e22-9111-69d58b54d24d.log
+[TRACE]  [ioslib] iPhone 5 Simulator already running with the correct udid
 [TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/GD/Library/Logs/CoreSimulator/037C4283-E821-49FD-8480-041C89A163B3/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 037C4283-E821-49FD-8480-041C89A163B3
-[TRACE]  [ioslib] iPhone 5 Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 037C4283-E821-49FD-8480-041C89A163B3
-[TRACE]  [ioslib] iPhone 5 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
 [TRACE]  [ioslib] iPhone 5 Simulator successfully focused
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 037C4283-E821-49FD-8480-041C89A163B3 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project3.app
@@ -203,4 +200,6 @@ Command
 [TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 037C4283-E821-49FD-8480-041C89A163B3 com.Nazarett.project3
 [TRACE]  [ioslib] App launched
 [TRACE]  [Nazarett_Gerardo_Project3] assertion failed: 14F27 13A340: libxpc.dylib + 71578 [5150F854-0B13-3C60-8B86-891EC976986E]: 0x7d
-[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/92A75C83-A0E1-418F-9EEB-7F14819A9F83/Documents/b176769c-aa41-4e22-9111-69d58b54d24d.log
+[TRACE]  [Nazarett_Gerardo_Project3] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [Nazarett_Gerardo_Project3] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/36A4072A-847B-491E-B1EB-412F07879C0D/Documents/b176769c-aa41-4e22-9111-69d58b54d24d.log

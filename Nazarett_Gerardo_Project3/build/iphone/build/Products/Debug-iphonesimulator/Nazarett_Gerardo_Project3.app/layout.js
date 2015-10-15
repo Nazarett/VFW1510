@@ -6,8 +6,8 @@ var pHeight = Ti.Platform.displayCaps.platformWidth;
 var picCount = 30;
 var rowCount = 4;
 var margin = 10;
-var deviceWidth = (pWidth - margin*5) / rowCount; //Width of the device minus all of the space
-var size = deviceWidth;
+var canvasWidth = (pWidth - margin*5); //Width of the device minus all of the space
+var size = 8*8;
 
 //Second Window
 
@@ -57,7 +57,7 @@ for( i = 0; i < galFiles.length; i++){
 	//});
 	
 	var gallery = Ti.UI.createImageView({
-		image: "pics/" + picFiles[i],
+		image: "pics/" + galFiles[i],
 		top:0,
 		width: view.width*2
 	});
