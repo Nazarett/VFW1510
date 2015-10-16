@@ -12,6 +12,8 @@ var mainWindow = Ti.UI.createWindow({
 	
 });
 
+var index = 0;
+
 //Main View
 var topView = Ti.UI.createView({
 	backgroundColor: "#1284bf",

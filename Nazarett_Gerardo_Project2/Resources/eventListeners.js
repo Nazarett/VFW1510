@@ -110,6 +110,7 @@ var vBio = function(){
 		
 	});
 	
+	
 		//Villans description display and buttons
 	var displayText = Ti.UI.createLabel({
 		text: this.desc,

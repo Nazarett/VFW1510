@@ -1,33 +1,30 @@
 //Function
 var prevHero = function(){
-	heroesText.text
-
-	var prevSuperHeroesLabel = Ti.UI.createLabel({
-		text: superHeroes[5],
-		color: "#000",
-		font: {fontSize: 30, familyFont: "arial", fontWeight: "bold"},
-		textAlign: "center",
-		top: 220 + topView.top
-		
-	});
 	
-	mainWindow.add(prevSuperHeroesLabel);
+	if (index == 0){
+	index = 5;
+	heroesText.text = superHeroes [index];
+}else{index--;
+	heroesText.text = superHeroes [index];
+	
+	};
+
 };
 
 var nextHero = function(){
 	
-
-	var nextSuperHeroesLabel = Ti.UI.createLabel({
-		text: superHeroes[1],
-		color: "#000",
-		font: {fontSize: 30, familyFont: "arial", fontWeight: "bold"},
-		textAlign: "center",
-		top: 220 + topView.top
-		
-	});
+	if (index == 5){
+	index = 0;
+	heroesText.text = superHeroes [index];
+}else{index++;
+	heroesText.text = superHeroes [index];
 	
-	mainWindow.add(nextSuperHeroesLabel);
-};
+	};
+
+};	
+
+	
+	
 
 
 //Event Listener
