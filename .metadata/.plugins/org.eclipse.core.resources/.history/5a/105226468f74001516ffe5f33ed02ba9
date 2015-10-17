@@ -1,0 +1,182 @@
+// Create Gallery New Window 
+var gallery = function(){
+    var galleryWindow = Ti.UI.createWindow({
+        backgroundColor: "#0d2c54"  // sets gallery window bg to lt blue
+    });
+
+    //Title Bar
+    var galleryTitleBar = Ti.UI.createView({
+        backgroundColor: "#ffb400",  // title bar bg yellow
+        top: 20,
+        height: 50
+    });
+    
+    //Title Bar Text
+    var galleryTitleText = Ti.UI.createLabel({
+        text: "Julie's Awesome Gallery",
+        color: "#0d2c54",  // title text dk blue
+        textAlign: "center",
+        font: {fontSize: 16, fontFamily: "Helvetica", fontWeight: "bold"}
+    });
+    
+    //Border
+    var galleryBorder = Ti.UI.createView({
+        backgroundColor: "#f6511d",  // border color orange
+        top: galleryTitleBar.top + galleryTitleBar.height,
+        height: 2
+    });
+    
+    //Back Button
+    var galleryBackButton = Ti.UI.createLabel({
+        backgroundColor: "#f7f5f4",  // sets back button bg to whitish
+        text: "<  Go Back",
+        color: "#0c2c54", // sets button text to dark blue
+        height: 50,
+        font: {fontSize: 20, fontFamily: "Helvetica", fontWeight: "bold"},
+        bottom: 30,
+        width: "50%",
+        borderRadius: 30,
+        textAlign: "center"
+    });
+    
+    // Scroll bar
+    var galleryContainer = Ti.UI.createScrollView({
+        width: pWidth,
+        contentWidth: pWidth,
+        top: galleryTitleBar.top + galleryTitleBar.height + galleryBorder.height,
+        height: pHeight - galleryTitleBar.top - galleryTitleBar.height - galleryBackButton.height - 10,
+        showVerticalScrollIndicator: true,
+        backgroundColor: "#7fb800",  // sets container bg to green
+        layout: "horizontal"
+    });
+    
+    //Create Thumbnails for Gallery
+    for (var i = 0; i < imageList.length; i++){
+        var thumbNail = Ti.UI.createView({
+            backgroundColor: "#00a6ed",  // sets box bg to lt blue
+            top: margin,
+            left: margin,
+            width: size,
+            height: size,
+            borderRadius: 12
+        });
+        
+        //Image View for Thumbnails
+        var theImage = Ti.UI.createImageView({
+            image: "images/" + imageList[i],
+            top: 0,
+            width: thumbNail.width*2,  // fits image to thumbnail
+            height: thumbNail.width*2,  // fits image to thumbnail
+            borderRadius: 12
+        });
+        
+        thumbNail.add(theImage);  
+        galleryContainer.add(thumbNail);
+    }
+    
+    // Event Propagation - original
+    //galleryContainer.addEventListener("click", function(event){
+    //getImage(event.source.image);
+    //});
+
+    //Event Propagation - if statement
+    galleryContainer.addEventListener("click", function(event){
+        if(event.source.image != null){
+            getImage(event.source.image);
+        }
+    });
+    
+    //Closes Window
+    var exitWindow = function(){
+        galleryWindow.close();
+    };
+    
+    //Code
+    galleryBackButton.addEventListener("click", exitWindow);
+    
+    galleryTitleBar.add(galleryTitleText);
+    galleryWindow.add(galleryTitleBar, galleryBorder, galleryContainer, galleryBackButton);
+    galleryWindow.open();
+};
+
+
+
+// SINGLE IMAGE PAGE
+
+// window for large image
+var getImage = function(imageSource){
+    var imageWindow = Ti.UI.createWindow({
+        backgroundColor: "#od2c54" // sets bg to dk blue
+    });
+    
+    //Title Bar
+    var imageTitleBar = Ti.UI.createView({
+        backgroundColor: "ffb400",
+        top: 20,
+        height: 50
+    });
+    
+    //Title Bar Text
+    var imageTitleText = Ti.UI.createLabel({
+        text: "The Big Picture",
+        color: "#fff",  // sets title text to white
+        textAlign: "center",
+        font: {fontSize: 20, fontFamily: "Helvetica", fontWeight: "bold"}
+        });
+        
+        //Big Image View
+        var bigImage = Ti.UI.createImageView({
+            image: imageSource,  // gets image from thumbnail
+            top: 80,
+            bottom: 100,
+            left: 10,
+            right: 10,
+            borderRadius: 10
+        });
+        
+        //Image Label
+        var imageLabel = Ti.UI.createLabel({
+            text: imageSource,  // prints name from image thumbnail
+            color: "#00a6ed", // image label color to lt blue
+            font: {fontSize: 20, fontFamily: "Helvetica", fontWeight: "bold"},
+            bottom: 90,
+            width: "100%",
+            textAlign: "center"
+        });
+        
+        //Border
+        var imageBorder = Ti.UI.createView({
+            backgroundColor: "#f6511d",  // border color to orange
+            top: imageTitleBar.top + imageTitleBar.height,
+            height: 2
+        });
+        
+        //Close Button
+        var closeImageButton = Ti.UI.createLabel({
+            backgroundColor: "#f7f5f4",  // button bg to whitish
+            text: "Close",
+            color: "#0d2c54", // button text to whitish
+            height: 50,
+            font: {fontSize: 20, fontFamily: "Helvetica", fontWeight: "bold"},
+            bottom: 0,
+            width: "50%",
+            borderRadius: 40,
+            textAlign: "center"
+        });
+        
+        //Close Window
+        var closeImageWindow = function(){
+            imageWindow.close();
+        };
+        
+        //Code
+        closeImageButton.addEventListener("click", closeImageWindow);
+        imageTitleBar.add(imageTitleText);
+        imageWindow.add(imageTitleBar, imageBorder, closeImageButton, imageLabel, bigImage);
+        imageWindow.open();
+};
+
+
+
+
+touchButton.addEventListener("click", gallery);  // Go button opens gallery window

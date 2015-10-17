@@ -1,0 +1,72 @@
+////////// app.js  //////////////
+ Ti.UI.setBackgroundColor("#000");  // black
+
+// Sizing and Spacing
+var pWidth = Ti.Platform.displayCaps.platformWidth;
+var	pHeight = Ti.Platform.displayCaps.platformHeight;
+var	itemCount = 30;
+var	rowCount = 4; 
+var	margin = 10;  // sets space between squares
+var trueCanvasWidth = (pWidth - margin * 5); // calculates usable canvas space
+var size = trueCanvasWidth / rowCount;  // size of each square. Height & width are the same
+
+// WINDOW 1
+
+//Welcome Window
+var welcomeWindow = Ti.UI.createWindow({
+	backgroundColor: "#bbb"  // lt grey
+});
+
+//Welcome View
+var titleView = Ti.UI.createView({
+	backgroundColor: "#ffb400",  // sets view bg to yellow
+	height: 500,   // sets view height to cover 500px of height
+	width: "100%",
+	top: 20
+});
+
+// Welcome View Title La
+var titleText = Ti.UI.createLabel({
+	text: "Julie's Gallery",
+	color: "#fff",  // sets Title to White
+	font: {fontSize: 40, fontFamily: "Helvetica", fontWeight: "bold"},
+	textAlign: "center",
+	top: 30  // sets Gallery title 25 px from the top of the welcome view
+});
+
+// Welcome View Sub Title 
+var titleSubText = Ti.UI.createLabel({
+	text: "This is my gallery.",
+	color: "#f7f5f4",  // sets sub title to whitish
+	font: {fontSize: 12, fontFamily: "Helvetica", fontWeight: "bold"},
+	textAlign: "center",
+	left: 20,
+	right: 20,
+	top: 85
+});
+
+// Touch  Button 
+var touchButton = Ti.UI.createView({
+	backgroundColor: "#f7f5f4", // whitish
+	height: 130,
+	width: 130,
+	borderRadius: 100,  // makes a round button
+	bottom: 40  // sets button 40 px from the page bottom 
+});
+
+// Touch Button Label
+var touchButtonText = Ti.UI.createLabel({
+	text: "Go",
+	color: "#0c2c54", // sets button text to dark blue
+	font: {fontSize: 40, fontFamily: "Helvetica", fontWeight: "bold"},
+	textAlign: "center"
+});
+
+// Load content.js
+var loadFile = require("layout");
+
+titleView.add(titleText, titleSubText);
+welcomeWindow.add(titleView, touchButton);
+touchButton.add(touchButtonText);
+welcomeWindow.open();
+

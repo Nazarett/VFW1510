@@ -3030,6 +3030,11 @@
 			"mtime": "2015-10-15T05:47:33.000Z",
 			"size": 209666
 		},
+		"pics/gallo.jpg": {
+			"hash": "c8142b7037bd0c067919e968374ff855",
+			"mtime": "2015-10-17T05:13:52.000Z",
+			"size": 38212
+		},
 		"pics/ham.jpg": {
 			"hash": "ea1e10da6d0dbf60ae711b4bad89c0eb",
 			"mtime": "2015-10-15T05:47:33.000Z",
@@ -3049,11 +3054,6 @@
 			"hash": "b11500494fe4a4917296ddad01d3c769",
 			"mtime": "2015-10-15T05:47:35.000Z",
 			"size": 263465
-		},
-		"pics/maduro.jpg": {
-			"hash": "5116e912c8a35af635489b6bf12cfd89",
-			"mtime": "2015-10-15T05:47:35.000Z",
-			"size": 138278
 		},
 		"pics/makro.jpg": {
 			"hash": "86f5985568035b112c79bc14066091a4",
@@ -3151,9 +3151,9 @@
 			"size": 306760
 		},
 		"Classes/ApplicationRouting.m": {
-			"hash": "e83a479049cde9b939ec55b07c0863d5",
-			"mtime": "2015-10-15T06:22:28.000Z",
-			"size": 86653
+			"hash": "3626222cc3f10fd73503193f376ca339",
+			"mtime": "2015-10-17T07:51:38.000Z",
+			"size": 101568
 		},
 		"modules/ui/images/badge.png": {
 			"hash": "4c5e51e328d337a135f513bc1e958c82",

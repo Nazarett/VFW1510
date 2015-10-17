@@ -7,10 +7,10 @@ BuilderIdent ProcessPCH\ /Users/GD/Documents/Visual\\\ Frameworks\\\ 2/VFW1510/V
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/SDKSettings.plist 0 1441390942 1592 33204
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/CoreServices/SystemVersion.plist 0 1439877418 414 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include/module.modulemap 0 1440036111 3034 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Nazarett_Gerardo_Project3_Prefix.pch 0 1444790657 384 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Nazarett_Gerardo_Project3_Prefix.pch 0 1445059963 384 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/SDKSettings.plist 0 1441390942 1592 33204
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Nazarett_Gerardo_Project3_Prefix.pch 0 1444790657 384 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Darwin-38I6DLZ5IH61J.pcm 0 1444790662 4246696 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Nazarett_Gerardo_Project3_Prefix.pch 0 1445059963 384 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Darwin-38I6DLZ5IH61J.pcm 0 1445059969 4246696 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/module.modulemap 0 1436589775 20146 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/sys/cdefs.h 0 1438924755 26454 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/sys/_symbol_aliasing.h 0 1438924756 10094 33188
@@ -458,7 +458,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/sys/vcmd.h 0 1438924755 3509 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/libc.h 0 1438664512 2012 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/sysexits.h 0 1438664512 5472 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/MachO-1BMJAO5Q3NM3O.pcm 0 1444790663 310956 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/MachO-1BMJAO5Q3NM3O.pcm 0 1445059969 310956 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/module.map 0 1436589779 827 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/arch.h 0 1438117995 4191 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/compact_unwind_encoding.h 0 1438118002 18900 33188
@@ -473,7 +473,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/reloc.h 0 1438117995 10506 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/stab.h 0 1438117995 6321 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/mach-o/swap.h 0 1438117995 7044 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/ObjectiveC-1RQA2RIXJIE19.pcm 0 1444790663 280432 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/ObjectiveC-1RQA2RIXJIE19.pcm 0 1445059969 280432 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/module.map 0 1436589779 563 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/List.h 0 1438118596 3594 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/message.h 0 1438118596 11972 33188
@@ -490,13 +490,13 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/objc-sync.h 0 1438118596 2159 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/Object.h 0 1438118596 3820 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/objc/Protocol.h 0 1438118596 2412 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/os-38I6DLZ5IH61J.pcm 0 1444790663 152840 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/os-38I6DLZ5IH61J.pcm 0 1445059969 152840 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/os/base.h 0 1438402241 4232 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/os/object.h 0 1438925078 5212 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/module.modulemap 0 1436589775 170 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/simd/module.modulemap 0 1436589775 86 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/os/activity.h 0 1438488094 9753 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Dispatch-2LX9MWM6UEPQW.pcm 0 1444790663 237260 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Dispatch-2LX9MWM6UEPQW.pcm 0 1445059969 237260 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/dispatch.h 0 1438925078 1631 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/base.h 0 1438925078 4536 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/time.h 0 1438925078 2977 33188
@@ -510,7 +510,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/data.h 0 1438925078 11014 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/io.h 0 1438925078 25824 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/dispatch/introspection.h 0 1438925078 4905 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreFoundation-J9ZOXGK4ZTRR.pcm 0 1444790663 785552 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreFoundation-J9ZOXGK4ZTRR.pcm 0 1445059969 785552 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Modules/module.modulemap 0 1438663886 210 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h 0 1438663866 2959 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/usr/include/assert.h 0 1438664511 4197 33188
@@ -556,7 +556,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFStringTokenizer.h 0 1438663866 12432 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFFileDescriptor.h 0 1438663866 2118 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h 0 1438663866 4226 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Security-T0W5HZGV3ZZ1.pcm 0 1444790663 307996 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Security-T0W5HZGV3ZZ1.pcm 0 1445059969 307996 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/module.map 0 1436589780 285 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h 0 1439617254 1361 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h 0 1439617254 4604 33188
@@ -572,7 +572,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/Headers/SecTrust.h 0 1439617254 33985 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/Headers/CipherSuite.h 0 1439617254 11816 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Security.framework/Headers/SecureTransport.h 0 1439617254 52390 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CFNetwork-3188M7OK0JW08.pcm 0 1444790663 266768 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CFNetwork-3188M7OK0JW08.pcm 0 1445059969 266768 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Modules/module.modulemap 0 1439440173 112 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h 0 1439440084 1230 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetworkDefs.h 0 1439440084 744 33188
@@ -586,7 +586,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFHTTPAuthentication.h 0 1439440084 13840 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetDiagnostics.h 0 1439440084 5328 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFProxySupport.h 0 1439440084 18046 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Foundation-3DFYNEBRQSXST.pcm 0 1444790663 2071272 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/Foundation-3DFYNEBRQSXST.pcm 0 1445059969 2071272 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap 0 1439359867 239 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h 0 1439359851 6314 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h 0 1439359851 22286 33188
@@ -699,7 +699,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLSession.h 0 1439359851 39591 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUserActivity.h 0 1439359851 7559 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSUUID.h 0 1439359851 1275 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreGraphics-N94D31PLFESQ.pcm 0 1444790663 533156 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreGraphics-N94D31PLFESQ.pcm 0 1445059969 533156 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h 0 1439359964 1278 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h 0 1439359964 7239 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGAffineTransform.h 0 1439359964 5067 33188
@@ -730,7 +730,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFContext.h 0 1439359964 13105 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFOperatorTable.h 0 1439359964 1491 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFScanner.h 0 1439359964 4359 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/OpenGLES-JLMMBGEUW8IK.pcm 0 1444790663 602268 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/OpenGLES-JLMMBGEUW8IK.pcm 0 1445059969 602268 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/module.map 0 1436589780 247 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h 0 1438571946 2715 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h 0 1438571946 2734 33188
@@ -741,7 +741,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h 0 1438571946 26478 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/gl.h 0 1438571946 76717 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES3/glext.h 0 1438571946 19220 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreVideo-1MLDN391V99P4.pcm 0 1444790663 264164 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreVideo-1MLDN391V99P4.pcm 0 1445059969 264164 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Modules/module.modulemap 0 1438120213 182 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h 0 1438120212 1531 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVReturn.h 0 1438120212 3968 33188
@@ -755,7 +755,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVOpenGLESTextureCache.h 0 1438120212 7640 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVPixelFormatDescription.h 0 1438120212 8539 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVHostTime.h 0 1438120212 1771 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreImage-N94D31PLFESQ.pcm 0 1444790663 300096 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreImage-N94D31PLFESQ.pcm 0 1445059969 300096 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.h 0 1438572168 804 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h 0 1438572168 814 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIVector.h 0 1438572168 2990 33188
@@ -771,7 +771,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIImageAccumulator.h 0 1438572168 1895 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CIFilterShape.h 0 1438572168 1740 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CISampler.h 0 1438572168 3027 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreText-3W9A51BO0R6G.pcm 0 1444790663 702632 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/CoreText-3W9A51BO0R6G.pcm 0 1445059969 702632 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Modules/module.modulemap 0 1439440347 107 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.h 0 1439440299 2422 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTDefines.h 0 1439440299 2717 33188
@@ -794,7 +794,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTTextTab.h 0 1439440299 4438 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/SFNTLayoutTypes.h 0 1439440299 66471 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/SFNTTypes.h 0 1439440299 14910 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/QuartzCore-23I9VTX2KZMTH.pcm 0 1444790663 333828 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/QuartzCore-23I9VTX2KZMTH.pcm 0 1445059969 333824 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Modules/module.modulemap 0 1438488543 1835 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAAnimation.h 0 1438488195 11995 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h 0 1438488195 32563 33188
@@ -818,7 +818,7 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CAValueFunction.h 0 1438488195 2412 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CoreAnimation.h 0 1438488195 985 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h 0 1438488193 192 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/UIKit-1V5UHAPTOD24G.pcm 0 1444790663 2174072 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/ModuleCache/39DKSCNK23BFC/UIKit-1V5UHAPTOD24G.pcm 0 1445059970 2174068 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap 0 1439617564 220 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h 0 1441390945 6027 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKitDefines.h 0 1441390945 526 33188
@@ -983,5 +983,5 @@ InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulato
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UICollisionBehavior.h 0 1439617460 2559 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIRegion.h 0 1439617459 1299 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIGestureRecognizerSubclass.h 0 1441390945 2827 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Classes/defines.h 0 1444790660 3255 33188
-InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Classes/ThirdpartyNS.h 0 1444790657 7913 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Classes/defines.h 0 1445059966 3255 33188
+InputFile    /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project3/build/iphone/Classes/ThirdpartyNS.h 0 1445059963 7913 33188
