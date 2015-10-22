@@ -23,10 +23,6 @@ var nextHero = function(){
 
 };	
 
-	
-	
-
-
 //Event Listener
 prevView.addEventListener("click", prevHero);
 nextView.addEventListener("click", nextHero);

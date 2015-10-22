@@ -1,5 +1,5 @@
 
-Thu Oct 15 2015 20:29:52 GMT-0400 (EDT)
+Wed Oct 21 2015 23:17:51 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49418 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444955389466.json --no-banner
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51635 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1445483868389.json --no-banner
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Found iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Validating iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Found iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
 [INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
@@ -61,8 +61,8 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.0
-[INFO]   Building for iOS Simulator: iPhone 4s
-[DEBUG]  UDID: 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[INFO]   Building for iOS Simulator: iPhone 5
+[DEBUG]  UDID: 037C4283-E821-49FD-8480-041C89A163B3
 [DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 9.0
 [INFO]   Building for device family: iphone
@@ -75,11 +75,9 @@ Command
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-e068bc2f25cf5be418507ee730f91669e4d97f3b.json
+[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-9de5133800cb4f0e784a41eb7bcf79717f9edd9b.json
 [TRACE]  online 1
-[TRACE]  sending request {"json":{"username":"gnazarett@gmail.com","session":"6dcf4ca51128f820fd6ed7a6dd61b6c0e331340e G5dNhQOLvcdUUHFPuTzrk4oZUWJn450FYuUbDnMkpFEYkkq1eifrE1+MnDHae3DA82MtiU0r0RpoHkt7ZAFx5mI9/N5cQ6fx33mlylIc9X4JyVtLwLGIehADmbIxOvdp3uhnh33YAYObu6I5a1A1gA4TLhBb/CZI1L6QL/ZOVZ0lgfvbKUiyG2D4InnEpTtPbwpjahsZ3xGBhxGAynXqEDXPL+N6bosf0yQlGWF9vzrCJ+oHa7Nt+dwYWU6gwHWFOaNY9EOutjQQx2yaSv2810rc0x5HGLX/orK/mEkLZyFxknoi6+fJ85ktt7p8mmJGVl6DfK8vK55SkGb27i9+dbhUn/LeEAvuPrFavMhsiIdBf+PrHP4GJUOW30fR7RACcgi9opUU62qUkBeoBzxPL9nHiL0Dvw2cZCXfpM1cXMu99fc1sz4VoLrjkofSgXma9uObqjAAHqxOciCUGMB+OdNauNrFiI6/vcMXXGeuJ3A/rc2u16gm0pTUtL5TDoxKvD0GAptXlT9pWYvJ68wM7Xn/xdIvvuSW5+zv4jRt57ZCaC8trNJF0aTVvx9vJhjIeUHQV+B713yxf6EKdpitIir5U+GqwBdqWFSYw3ALvFFki+xUz6ECTukhccbV7WleLH7vs9uHHifKnQaKyK5OFxCQ1UfCIvhGYLuyjzPOT9dZMtCt9F1OxvR9pluECjkl+J6QOb2fXjtKa9HdjFBCrjfvYM/keQSdxhKIWGR9m7xhUWhzF5SsnwyB5ZVME6dpK3Ay+12LcD0hRc9FMtLHF6zaMlf0nOp+PIX2uRlKrHo=","ipaddress":"192.168.1.113","fingerprint":"690955e527ee236d0a167ee29a8d7aa880a528f4","fingerprint_description":"Mac OSX Serial Number: C02PF1Q2G3QN","guid":"af726126-16c8-467e-9000-710cdcbe4099","appid":"com.Nazarett.Project1","name":"Nazarett_Gerardo_Project1","org_id":100055455,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.Nazarett.Project1</id>\n  <name>Nazarett_Gerardo_Project1</name>\n  <version>1.0</version>\n  <publisher>GD</publisher>\n  <url>http://</url>\n  <description>undefined</description>\n  <copyright>2015 by GD</copyright>\n  <icon>appicon.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>af726126-16c8-467e-9000-710cdcbe4099</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules/>\n    <deployment-targets>\n      <target device=\"android\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n      <target device=\"windows\">false</target>\n    </deployment-targets>\n    <sdk-version>5.0.2.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">560f2376c120a0eb3010f84f</property>\n  </ti:app>","modules":[]},"gzip":true,"followAllRedirects":true,"url":"https://security.appcelerator.com/build-verify"}
-[TRACE]  result from /build-verify=> {"key":"3k8VfWqryBokLpTdfuJXJw==","pepper":"o7covIP4AFj5jZ9iTLzPHQ==","hmacKey":"eDDU1j5smiCt0dDgETejlw==","o":100055455,"u":"0e9be039-e638-4e44-9a27-c64b144fc230","p":"free","i":"562045018cb04aede64ca28a","success":true}, err=null
-[INFO]   JavaScript files need to be encrypted
+[TRACE]  optimizing build, last build was 34.546 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -139,16 +137,13 @@ Command
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
 [DEBUG]  Copying CSS files
 [INFO]   Processing JavaScript files
-[DEBUG]  Copying /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/liveview.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/app_js
-[DEBUG]  Copying /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/Resources/eventListeners.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/eventListeners_js
+[DEBUG]  Overwriting /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/liveview.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/app.js
+[DEBUG]  Overwriting /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/Resources/eventListeners.js => /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/eventListeners.js
 [INFO]   Writing app properties
-[DEBUG]  Writing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/_app_props__json
-[INFO]   Encrypting JavaScript files
-[DEBUG]  Preparing app_js
-[DEBUG]  Preparing eventListeners_js
-[DEBUG]  Preparing _app_props__json
-[DEBUG]  Running /Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/iphone/titanium_prep "com.Nazarett.Project1" "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets"
-[DEBUG]  Writing application routing source file: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Classes/ApplicationRouting.m
+[TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/_app_props_.json
+[DEBUG]  Using default application routing
+[INFO]   Forcing rebuild: Classes/ApplicationRouting.m has changed since last build
+[DEBUG]  Writing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Classes/ApplicationRouting.m
 [INFO]   Writing i18n files
 [DEBUG]  No i18n files to process
 [INFO]   Processing Titanium symbols
@@ -158,9 +153,14 @@ Command
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Classes/defines.h
 [INFO]   Removing files
+[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Logs/Build/Cache.db
+[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Logs/Build/D1151016-97CA-4B96-AF4D-0B4AB3250B40.xcactivitylog
+[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/_app_props__json
+[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/app_js
+[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/assets/eventListeners_js
 [DEBUG]  Removing empty directories
 [INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Nazarett_Gerardo_Project1 -configuration Debug -scheme Nazarett_Gerardo_Project1 -derivedDataPath "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone" "OBJROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products" -destination "platform=iOS Simulator,id=430D3FF3-945C-4FD4-BEA3-13A664B7E3E8,OS=9.0"
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Nazarett_Gerardo_Project1 -configuration Debug -scheme Nazarett_Gerardo_Project1 -derivedDataPath "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone" "OBJROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products" -destination "platform=iOS Simulator,id=037C4283-E821-49FD-8480-041C89A163B3,OS=9.0"
 [TRACE]  User defaults from command line:
 [TRACE]      IDEDerivedDataPathOverride = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone
 [TRACE]  Build settings from command line:
@@ -200,6 +200,35 @@ Command
 [TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone"
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
 [TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/Objects-normal/i386/Nazarett_Gerardo_Project1 /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/Objects-normal/x86_64/Nazarett_Gerardo_Project1 -output /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/Nazarett_Gerardo_Project1
+[TRACE]  
+[TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app Assets.xcassets
+[TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone"
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/assetcatalog_dependencies --output-partial-info-plist /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone5,1 --filter-for-device-os-version 9.0 --target-device iphone --minimum-deployment-target 7.1 --platform iphonesimulator --compile /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Assets.xcassets
+[TRACE]  /* com.apple.actool.document.notices */
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /* com.apple.actool.compilation-results */
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon29x29@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon29x29@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon40x40@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon40x40@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon60x60@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon60x60@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/LaunchImage-800-Landscape-736h@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/LaunchImage-700@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/assetcatalog_generated_info.plist
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/Info.plist Info.plist
+[TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone"
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      builtin-infoPlistUtility /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Info.plist -genpkginfo /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Intermediates/Nazarett_Gerardo_Project1.build/Debug-iphonesimulator/Nazarett_Gerardo_Project1.build/assetcatalog_generated_info.plist -o /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/Info.plist
 [TRACE]  
 [TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app.dSYM build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app/Nazarett_Gerardo_Project1
 [TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone"
@@ -719,10 +748,6 @@ Command
 [TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableURLRequest
 [TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
 [TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
-[TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
-[TRACE]  warning: Could not resolve external type _ZTS8_NSRange
-[TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
-[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableData
 [TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Classes/APSAnalytics/libAPSAnalytics.a(APSUtility.o):
 [TRACE]  warning: /var/folders/d5/xkn1gy8s6s70j_gch8wn6rwm0000gp/C/org.llvm.clang.kiat/ModuleCache/3RPFLG3LFWUHW/Foundation-K7W1BMS6PHG4.pcm: No such file or directory
 [TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/Classes/APSAnalytics/libAPSAnalytics.a(APSUtility.o):
@@ -1237,10 +1262,6 @@ Command
 [TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableURLRequest
 [TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
 [TRACE]  warning: Could not resolve external type c:objc(cs)NSObject
-[TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
-[TRACE]  warning: Could not resolve external type _ZTS8_NSRange
-[TRACE]  while processing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/lib/libtiverify.a(TiVerify.o):
-[TRACE]  warning: Could not resolve external type c:objc(cs)NSMutableData
 [TRACE]  Showing first 200 warnings only
 [TRACE]  
 [TRACE]  CopySwiftLibs build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app
@@ -1255,22 +1276,22 @@ Command
 [TRACE]      /usr/bin/touch -c /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 8s 114ms
+[INFO]   Finished building the application in 5s 366ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
-[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/9EB642F3-1713-4B32-B0D1-FC7351E6CDDF/Documents/af726126-16c8-467e-9000-710cdcbe4099.log
-[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/GD/Library/Logs/CoreSimulator/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/system.log
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] iPhone 4s Simulator was already shutdown
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] iPhone 4s Simulator started
+[TRACE]  [ioslib] iPhone 5 Simulator is running, but not in a booted state, stopping simulator
+[TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/GD/Library/Logs/CoreSimulator/037C4283-E821-49FD-8480-041C89A163B3/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] iPhone 5 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] iPhone 5 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app
+[TRACE]  [ioslib] iPhone 5 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 037C4283-E821-49FD-8480-041C89A163B3 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project1/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project1.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 com.Nazarett.Project1
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 037C4283-E821-49FD-8480-041C89A163B3 com.Nazarett.Project1
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/1FB670FE-4CB8-4D7C-A769-760094B69AFA/Documents/af726126-16c8-467e-9000-710cdcbe4099.log
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/5BF1FF2E-693A-407C-B4A0-CEFB7D396251/Documents/af726126-16c8-467e-9000-710cdcbe4099.log
