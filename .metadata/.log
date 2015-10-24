@@ -11082,3 +11082,15 @@ Caused by: java.io.IOException: error=7, Argument list too long
 
 !ENTRY org.eclipse.core.resources 4 567 2015-10-24 18:06:41.163
 !MESSAGE The project description file (.project) for 'Nazarett_Gerardo_Project4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-24 18:15:42.277
+!MESSAGE (Build 4.3.2.201510020431) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-24 18:15:42.277
+!MESSAGE (Build 4.3.2.201510020431) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-24 18:15:58.307
+!MESSAGE (Build 4.3.2.201510020431) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/mobilesdk/osx
+
+!ENTRY com.appcelerator.titanium.core 4 0 2015-10-24 18:15:58.307
+!MESSAGE (Build 4.3.2.201510020431) [ERROR]  Location to be watched doesn't exist: /Library/Application Support/Titanium/modules
