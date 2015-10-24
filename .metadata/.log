@@ -11702,3 +11702,35 @@ java.io.FileNotFoundException: /Users/GD/Documents/Visual Frameworks 2/VFW1510/V
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2015-10-24 19:05:23.122
+!MESSAGE Could not write metadata for '/Practice'.
+!STACK 0
+java.io.FileNotFoundException: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/.metadata/.plugins/org.eclipse.core.resources/.projects/Practice/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2085)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1214)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at com.aptana.git.core.GitProjectRefresher$1.runInWorkspace(GitProjectRefresher.java:138)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.resources 4 568 2015-10-24 19:05:23.130
+!MESSAGE Could not write metadata for '/Practice'.
+!STACK 0
+java.io.FileNotFoundException: /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/.metadata/.plugins/org.eclipse.core.resources/.projects/Practice/1.tree (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:221)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:171)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.writeTree(SaveManager.java:2085)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1214)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.Project.close(Project.java:203)
+	at com.aptana.git.core.GitProjectRefresher$1.runInWorkspace(GitProjectRefresher.java:138)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
