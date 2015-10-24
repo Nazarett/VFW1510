@@ -6,13 +6,15 @@ Ti.UI.setBackgroundColor("#000");
 //My Topic
 var superHeroes = ["Captain America", "Ironman", "Hulk", "Thor", "Black Widow", "Hawkeye" ]; 
 
+var index = 0;
+
 // Main window 
 var mainWindow = Ti.UI.createWindow({
 	backgroundColor: "#b4b7b9"
 	
 });
 
-var index = 0;
+
 
 //Main View
 var topView = Ti.UI.createView({

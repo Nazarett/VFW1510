@@ -385,7 +385,7 @@ Module.patch = function (globalCtx, url, port) {
 
   var defaultURL = (process.platform === 'android' && process.hardware === 'sdk')
     ? '10.0.2.2'
-    : '172.20.3.56';
+    : '192.168.1.113';
   Module._globalCtx = globalCtx;
   global._globalCtx = globalCtx;
   Module._url = url || defaultURL;

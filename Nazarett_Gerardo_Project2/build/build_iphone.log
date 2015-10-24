@@ -1,5 +1,5 @@
 
-Fri Oct 16 2015 02:22:04 GMT-0400 (EDT)
+Thu Oct 22 2015 00:55:29 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,12 +21,12 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49311 --username gnazarett@gmail.com --password nazty2224 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1444976521329.json --no-banner
+  /usr/local/bin/node /Users/GD/.appcelerator/install/5.0.2/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2 --target simulator --ios-version 9.0 --device-family iphone --sim-type iphone --sim-version 9.0 --device-id 037C4283-E821-49FD-8480-041C89A163B3 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51635 --plugin-paths /Users/GD/.appcelerator/install/5.0.2/package/node_modules --config-file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-1445489726636.json --no-banner
 
-[TRACE]  [ioslib] Validating iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Found iOS Simulator UDID 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Validating iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Found iOS Simulator UDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
 [INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
@@ -63,8 +63,8 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 9.0
-[INFO]   Building for iOS Simulator: iPhone 4s
-[DEBUG]  UDID: 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[INFO]   Building for iOS Simulator: iPhone 5
+[DEBUG]  UDID: 037C4283-E821-49FD-8480-041C89A163B3
 [DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 9.0
 [INFO]   Building for device family: iphone
@@ -77,9 +77,9 @@ Command
 [INFO]   Profiler disabled
 [INFO]   Set to copy files instead of symlinking
 [INFO]   Initializing the build directory
-[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-2b8d240e1a25f4bdba24f8a33095a437d4d93a99.json
+[TRACE]  offline build file /var/folders/vn/p9bpyqg51pl6hr5rw23kt4140000gn/T/build-dd03213e55ced4b0da69fe3ca803310c82742c7e.json
 [TRACE]  online 1
-[TRACE]  optimizing build, last build was 50.49 sec ago
+[TRACE]  optimizing build, last build was 56.26 sec ago
 [INFO]   Creating Xcode project
 [TRACE]  Removing pre-compile phase
 [TRACE]  No native module libraries to add
@@ -156,15 +156,13 @@ Command
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/modules/ui/images/photoDefault.png
 [TRACE]  No change, skipping /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Classes/defines.h
 [INFO]   Removing files
-[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Logs/Build/8913690A-2BE1-472E-9837-34A7D3C59FE3.xcactivitylog
-[DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Logs/Build/Cache.db
 [DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/_app_props__json
 [DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/app_js
 [DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/eventListeners_js
 [DEBUG]  Removing /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/assets/ti_cloud_js
 [DEBUG]  Removing empty directories
 [INFO]   Invoking xcodebuild
-[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Nazarett_Gerardo_Project2 -configuration Debug -scheme Nazarett_Gerardo_Project2 -derivedDataPath "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone" "OBJROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products" -destination "platform=iOS Simulator,id=430D3FF3-945C-4FD4-BEA3-13A664B7E3E8,OS=9.0"
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -target Nazarett_Gerardo_Project2 -configuration Debug -scheme Nazarett_Gerardo_Project2 -derivedDataPath "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone" "OBJROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates" "SHARED_PRECOMPS_DIR=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/PrecompiledHeaders" "SYMROOT=/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products" -destination "platform=iOS Simulator,id=037C4283-E821-49FD-8480-041C89A163B3,OS=9.0"
 [TRACE]  User defaults from command line:
 [TRACE]      IDEDerivedDataPathOverride = /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone
 [TRACE]  Build settings from command line:
@@ -204,6 +202,35 @@ Command
 [TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone"
 [TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
 [TRACE]      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/Objects-normal/i386/Nazarett_Gerardo_Project2 /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/Objects-normal/x86_64/Nazarett_Gerardo_Project2 -output /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/Nazarett_Gerardo_Project2
+[TRACE]  
+[TRACE]  CompileAssetCatalog build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app Assets.xcassets
+[TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone"
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/assetcatalog_dependencies --output-partial-info-plist /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --compress-pngs --enable-on-demand-resources YES --filter-for-device-model iPhone5,1 --filter-for-device-os-version 9.0 --target-device iphone --minimum-deployment-target 7.1 --platform iphonesimulator --compile /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets
+[TRACE]  /* com.apple.actool.document.notices */
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][736h][3x][landscape][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Assets.xcassets:./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]: notice: This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.
+[TRACE]  /* com.apple.actool.compilation-results */
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon29x29@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon29x29@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon40x40@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon40x40@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon60x60@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon60x60@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon29x29@2x~ipad.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/AppIcon40x40@2x~ipad.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/LaunchImage-800-Portrait-736h@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/LaunchImage-800-Landscape-736h@3x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/LaunchImage-800-667h@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/LaunchImage-700@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/LaunchImage-700-568h@2x.png
+[TRACE]  /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/assetcatalog_generated_info.plist
+[TRACE]  
+[TRACE]  ProcessInfoPlistFile build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/Info.plist Info.plist
+[TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone"
+[TRACE]      export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"
+[TRACE]      builtin-infoPlistUtility /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/Info.plist -genpkginfo /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Intermediates/Nazarett_Gerardo_Project2.build/Debug-iphonesimulator/Nazarett_Gerardo_Project2.build/assetcatalog_generated_info.plist -o /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/Info.plist
 [TRACE]  
 [TRACE]  GenerateDSYMFile build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app.dSYM build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app/Nazarett_Gerardo_Project2
 [TRACE]      cd "/Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone"
@@ -1251,19 +1278,25 @@ Command
 [TRACE]      /usr/bin/touch -c /Users/GD/Documents/Visual\ Frameworks\ 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
 [TRACE]  
 [TRACE]  ** BUILD SUCCEEDED **
-[INFO]   Finished building the application in 5s 356ms
+[INFO]   Finished building the application in 5s 299ms
 [INFO]   Launching iOS Simulator
-[TRACE]  [ioslib] Selected iOS Simulator: iPhone 4s
-[TRACE]  [ioslib]   UDID    = 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 5
+[TRACE]  [ioslib]   UDID    = 037C4283-E821-49FD-8480-041C89A163B3
 [TRACE]  [ioslib]   iOS     = 9.0
 [TRACE]  [ioslib] Autoselected Xcode: 7.0.1
-[TRACE]  [ioslib] Removing old log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/D4B18DE8-19BC-4EF9-ACAD-9B5E747B1E47/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
-[TRACE]  [ioslib] iPhone 4s Simulator already running with the correct udid
-[TRACE]  [ioslib] Tailing iPhone 4s Simulator system log: /Users/GD/Library/Logs/CoreSimulator/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/system.log
+[TRACE]  [ioslib] iPhone 5 Simulator is running, but not in a booted state, stopping simulator
+[TRACE]  [ioslib] Tailing iPhone 5 Simulator system log: /Users/GD/Library/Logs/CoreSimulator/037C4283-E821-49FD-8480-041C89A163B3/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] iPhone 5 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID 037C4283-E821-49FD-8480-041C89A163B3
+[TRACE]  [ioslib] iPhone 5 Simulator started
 [TRACE]  [ioslib] Running: osascript "/Users/GD/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
-[TRACE]  [ioslib] iPhone 4s Simulator successfully focused
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
+[TRACE]  [ioslib] iPhone 5 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install 037C4283-E821-49FD-8480-041C89A163B3 /Users/GD/Documents/Visual Frameworks 2/VFW1510/VFW1510/Nazarett_Gerardo_Project2/build/iphone/build/Products/Debug-iphonesimulator/Nazarett_Gerardo_Project2.app
 [TRACE]  [ioslib] App installed
-[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 430D3FF3-945C-4FD4-BEA3-13A664B7E3E8 com.nazarett.project2
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch 037C4283-E821-49FD-8480-041C89A163B3 com.nazarett.project2
 [TRACE]  [ioslib] App launched
-[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/430D3FF3-945C-4FD4-BEA3-13A664B7E3E8/data/Containers/Data/Application/FAEFBDD5-350D-4B09-97F0-C30E3E268D03/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [ioslib] Found application log file: /Users/GD/Library/Developer/CoreSimulator/Devices/037C4283-E821-49FD-8480-041C89A163B3/data/Containers/Data/Application/6E46B31E-88D4-4AEB-AC72-F128FB21162D/Documents/a340dc2e-f95e-433a-9eee-1ba20c7872f6.log
+[TRACE]  [Nazarett_Gerardo_Project2] assertion failed: 14F27 13A340: libxpc.dylib + 71578 [5150F854-0B13-3C60-8B86-891EC976986E]: 0x7d
+[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:performFetchWithCompletionHandler:], but you still need to add "fetch" to the list of your supported UIBackgroundModes in your Info.plist.
+[TRACE]  [Nazarett_Gerardo_Project2] You've implemented -[<UIApplicationDelegate> application:didReceiveRemoteNotification:fetchCompletionHandler:], but you still need to add "remote-notification" to the list of your supported UIBackgroundModes in your Info.plist.
