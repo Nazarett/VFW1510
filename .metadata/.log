@@ -11076,3 +11076,9 @@ Caused by: java.io.IOException: error=7, Argument list too long
 	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
 	... 16 more
+
+!ENTRY org.eclipse.core.resources 4 567 2015-10-24 18:06:41.162
+!MESSAGE The project description file (.project) for 'Nazarett_Gerardo_Project4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2015-10-24 18:06:41.163
+!MESSAGE The project description file (.project) for 'Nazarett_Gerardo_Project4' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
