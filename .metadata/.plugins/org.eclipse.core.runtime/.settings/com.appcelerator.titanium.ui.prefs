@@ -1,13 +1,13 @@
 =run
 Julie_project\:launchMode=run
 Julie_project\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.037C4283-E821-49FD-8480-041C89A163B3
-LAST_LAUNCH_TIMESTAMP=1445302120178
+LAST_LAUNCH_TIMESTAMP=1445723959030
 Nazarett_Gerardo_Project1\:launchMode=run
-Nazarett_Gerardo_Project1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
+Nazarett_Gerardo_Project1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.1ED01243-B8F2-4026-8741-15116F7ACE99
 Nazarett_Gerardo_Project2\:launchMode=run
 Nazarett_Gerardo_Project2\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.430D3FF3-945C-4FD4-BEA3-13A664B7E3E8
 Nazarett_Gerardo_Project3\:launchMode=run
-Nazarett_Gerardo_Project3\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.037C4283-E821-49FD-8480-041C89A163B3
+Nazarett_Gerardo_Project3\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.ipad.launchShortcut.1ED01243-B8F2-4026-8741-15116F7ACE99
 eclipse.preferences.version=1
 preference.show.console.onError=false
 preference.studio.perspective.version=103
